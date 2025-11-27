@@ -1,0 +1,330 @@
+CHƯƠNG 7
+THIẾT KẾ GIAO DIỆN
+
+Giới thiệu
+
+GV biên soạn: Trần Kim Hương
+
+3
+
+NỘI DUNG THIẾT KẾ GIAO DIỆN
+1. Giới thiệu
+2. Chất lượng thiết kế giao diện
+3. Các loại giao diện
+
+4. Những dạng cơ bản tương tác người - máy
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+1. Giới thiệu
+◼ Màn hình giao diện giúp người sử dụng giao tiếp với
+
+phần mềm để thực hiện công việc của mình trên máy
+tính.
+◼ Thiết kế giao diện là chuyển các chức năng (tiến trình)
+được mô tả dạng biểu đồ thành dạng màn hình thao
+tác, giúp người dùng dễ dàng:
+◆ Sử dụng các chức năng của phần mềm
+⚫ Hiện diện trong thực đơn
+
+◆ Nhập dữ liệu
+⚫ Ngăn chặn được dữ liệu sai
+⚫ Ép người dùng nhập liệu theo một quy trình an toàn.
+
+◆ Tra cứu thông tin dữ liệu.
+
+GV biên soạn: Trần Kim Hương
+
+5
+
+Sơ đồ màn hình
+MH giới thiệu
+
+MH Công việc 1
+
+Màn hình chính
+
+MH kết thúc
+
+MH Công việc 1
+
+MH Công việc 1
+
+MH Công việc trung gian 1
+
+GV biên soạn: Trần Kim Hương
+
+MH Công việc trung gian 2
+
+6
+
+2. Chất lượng thiết kế giao diện
+◼ Tính tiện dụng:
+◆ Màn hình trực quan (giao diện đồ họa)
+◆ Thân thiện, tự nhiên
+⚫ Lấy ý tưởng từ tự nhiên
+⚫ Dùng ngôn ngữ chủa NSD
+
+◆ Dễ dàng truy xuất qua các màn hình khác
+◆ Nên gói gọn công việc trong một màn hình
+
+GV biên soạn: Trần Kim Hương
+
+7
+
+MH tính tiện dụng
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+2. Chất lượng thiết kế giao diện(tt)
+◼ Tính hiệu quả:
+◆ Tốc độ:
+⚫ Ít thao tác, nếu có thao tác phải nhanh
+⚫ Hỗ trợ bằng giá trị định sẵn
+⚫ Phím tắt, biểu tượng.
+
+◆ Hạn chế lỗi cho NSD:
+⚫ Không tạo cơ hội cho NSD làm sai.
+
+– Sử dụng list box, nhắc nhở
+⚫ Cơ hội sửa lỗi (undo)
+
+◼ Tính mỹ thuật
+◆ Màu sắc hài hòa, bắt mắt.
+◆ Bố cục gọn gàng, hợp lý.
+GV biên soạn: Trần Kim Hương
+
+9
+
+VD MH hiệu quả, mỹ thuật
+
+GV biên soạn: Trần Kim Hương
+
+10
+
+Nhận xét bố cục
+
+GV biên soạn: Trần Kim Hương
+
+11
+
+Nhận xét bố cục
+
+GV biên soạn: Trần Kim Hương
+
+12
+
+Nhận xét bố cục
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+Phân loại các MHGD
+Loại màn hình
+
+Ý nghĩa sử dụng
+
+Màn hình chính
+
+Cho phép NSD chọn công việc mong muốn thực Danh sách các công việc
+hiện
+
+Màn hình nhập liệu lưu
+trữ
+
+Cho phép NSD thực hiện lưu trữ các thông tin
+được phát sinh trong thế giới thực
+
+Các thông tin cần lưu trữ
+
+Màn hình nhập liệu xử lý
+
+Cho phép NSD cung cấp các thông tin cần thiết
+cho việc thực hiện một công việc nào đó
+
+Các thông tin phải cung
+cấp
+
+Màn hình kết quả
+
+Trình bày cho NSD kết quả của việc thực hiện
+một công việc nào đó
+
+Các kết quả
+
+Màn hình thông báo
+
+Thông báo, nhắc nhở NSD trong quá trình thực
+hiện một công việc nào đó
+
+Các thông báo
+
+Màn hình tra cứu
+
+Cho phép tìm kiếm các thông tin đã được lưu trữ Các tiêu chuẩn tra cứu
+
+GV biên soạn: Trần Kim Hương
+
+Nội dung chính
+
+14
+
+GV biên soạn: Trần Kim Hương
+
+19
+
+Mô tả giao diện
+Tên đối
+tượng
+
+Kiểu đối
+tượng
+
+Ràng buộc
+
+Dữ liệu
+
+Mã NCC TextBox
+
+10 ký tự
+
+Hiển thị từ lưới
+lên
+
+Tên
+NCC
+
+TextBox
+
+…..
+
+…
+
+Số ĐT
+
+…
+
+….
+
+...
+
+Số tài
+khoản
+
+…..
+
+…….
+
+Vật liệu
+cung
+ứng
+
+Gridview
+
+Load từ csdl
+
+GV biên soạn: Trần Kim Hương
+
+Giá trị
+mặc định
+
+…..
+
+20
+
+Nhận xét bố cục MHGD chính
+
+GV biên soạn: Trần Kim Hương
+
+21
+
+Nhận xét bố cục MHGD chính
+
+GV biên soạn: Trần Kim Hương
+
+22
+
+Nhận xét bố cục MHGD chính
+
+GV biên soạn: Trần Kim Hương
+
+23
+
+Thiết kế màn hình giao diện
+◼ Thiết kế tài liệu in (report)
+◆ Đầu vào: mẫu biểu có sẵn, báo cáo đầu ra
+◆ Đầu ra: tập các báo cáo cần in của hệ thống
+◆ Cách thực hiện:
+⚫ Nghiên cứu các yếu tố sẵn có (tần suất, nhu cầu
+
+sử dụng)
+⚫ Xác định nội dung báo cáo
+⚫ Kích cỡ, màu sắc, bố cục
+⚫ Đặc tả báo cáo: bố cục, các bảng dữ liệu sử dụng,
+phác họa.
+
+GV biên soạn: Trần Kim Hương
+
+24
+
+Thiết kế màn hình giao diện
+◼ VD Thiết kế report ĐƠN HÀNG
+◆ Tên báo cáo: ĐƠN HÀNG
+◆ Người lập: nhân viên bộ phận bán hàng
+◆ Nhiệm vụ: gửi thông tin vật tư cần mua cho NCC
+◆ Môi trường: Nhà cung cấp
+◆ Mẫu báo cáo:
+◆ Bảng dữ liệu sử dụng:…
+◆ Trường dữ liệu tính toán:
+⚫ Thành tiền=ld*dg
+⚫ Tổng tiền=…
+
+◆ Kích cỡ: giấy A4
+
+◆ Số lượng phiên bản: 1
+GV biên soạn: Trần Kim Hương
+
+25
+
+Nhận xét bố cục report
+
+GV biên soạn: Trần Kim Hương
+
+26
+
+Nhận xét bố cục report
+
+GV biên soạn: Trần Kim Hương
+
+27
+
+Nhận xét bố cục report
+
+GV biên soạn: Trần Kim Hương
+
+28
+
+Nhận xét bố cục report
+
+GV biên soạn: Trần Kim Hương
+
+29
+
+Nhận xét bố cục report
+
+GV biên soạn: Trần Kim Hương
+
+30
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+42
+
+

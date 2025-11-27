@@ -1,0 +1,911 @@
+CHƯƠNG 6
+
+XÂY DỰNG SƠ ĐỒ LỚP
+
+ĐỐI TƯỢNG HỆ THỐNG
+
+NỘI DUNG
+1
+
+Sơ đồ lớp
+
+2
+
+Cách tiếp cận xác định lớp
+
+3
+
+Xác định mối quan hệ giữa các lớp
+
+4
+
+Xác định thuộc tính và hành vi của lớp
+
+GV biên soạn: Trần Kim Hương
+
+2
+
+Đối tượng (Object)
+◼ Đối tượng (Object): là một thực thể có một vai trò rõ
+
+ràng trong lĩnh vực ứng dụng, có trạng thái và định
+danh.
+◼ Một số đặc trưng của đối tượng:
+◆ Tên đối tượng
+◆ Các tính chất của đối tượng
+◆ Các ứng xử của đối tượng
+
+◆ Các trạng thái của đối tượng
+
+GV biên soạn: Trần Kim Hương
+
+3
+
+Đối tượng (Object)
+Ví dụ: Đối tượng
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+Lớp đối tượng (Class)
+◼ Lớp đối tượng:
+◆ Tập hợp các đối tượng chia sẻ chung cấu trúc (các
+
+thuộc tính và mối quan hệ) và hành vi.
+◆ Lớp là trừu tượng hóa các đối tượng, đối tượng là
+
+thể hiện của lớp
+◆ Biểu diễn một lớp đối tượng:
+⚫ Tên lớp
+⚫ Danh sách thuộc tính (attribute)
+⚫ Danh sách các hoạt động (method)
+
+GV biên soạn: Trần Kim Hương
+
+5
+
+1. Sơ đồ lớp đối tượng (class diagram)
+◼ Là một hình thức biểu diễn lớp đối tượng (tên, thuộc
+
+tính, hành vi) và quan hệ giữa chúng một cách trực
+quan.
+◼ Biểu diễn sơ đồ lớp đối tượng bằng UML:
+◆ Biểu diễn lớp
+
+GV biên soạn: Trần Kim Hương
+
+6
+
+1. Sơ đồ lớp đối tượng (class diagram)
+◼ Biểu diễn sơ đồ lớp đối tượng bằng UML(tt):
+◆ Biểu diễn đối tượng
+
+k là đối tượng
+thuộc lớp đối tượng Khach hang
+◆ Mối kết hợp giữa các lớp (Association):
+⚫ Mối kết hợp có thể giữa các đối tượng của 2 lớp đối
+
+tượng.
+⚫ Nếu 2 đối tượng của 2 lớp có mối kết hợp thì giữa 2
+
+lớp có mối kết hợp.
+◆ Một sơ đồ lớp đối tượng sẽ bao gồm các lớp và các
+
+quan hệ giữa các lớp
+GV biên soạn: Trần Kim Hương
+
+7
+
+2. Các bước phân tích đối tượng hệ thống
+◼ Các bước trong quá trình xây dựng sơ đồ lớp đối
+
+tượng hệ thống:
+◆ Xác định các lớp đối tượng
+◆ Xác định các mối quan hệ
+◆ Xác định bản số
+◆ Xác định các lớp kết hợp
+
+định các quan hệ aggregation, composition,
+generalization
+
+◆ Xác
+
+◆ Xác định các thuộc tính
+◆ Xác định các phương thức.
+
+◼ Sơ đồ lớp đối tượng mức phân tích.
+GV biên soạn: Trần Kim Hương
+
+8
+
+Các cách tiếp cận xác định lớp
+❖ Theo đối tượng nghiệp vụ
+❖Theo cụm danh từ
+❖Dựa vào một số mẫu chung
+❖Phân tích hoạt động Use-Case
+❖CRC
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Đối với các thực thể sự vật:
+◆ Kiểm xem có nhu cầu quản lý thông tin về thực thể này
+
+trong hệ thống không?
+◆ Nếu có, xác định một lớp trong sơ đồ phân tích biểu
+
+diễn cho thực thể này.
+⚫ Xác định tên lớp: tên của sự vật
+⚫ Thuôc tính: bổ sung các thuộc tính mô tả đầy đủ thông tin
+
+mà hệ thống có nhu cầu quản lý về đối tượng.
+
+GV biên soạn: Trần Kim Hương
+
+10
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+11
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Đối với thực thể thông tin:
+◆ Nếu thực thể mô tả thông tin về một hoạt động giao
+
+dịch hệ thống thì chuyển thành một lớp trong mô hình
+phân tích.
+◆ Nếu thực thể là một dạng thông tin tổng hợp → có thể
+
+tách thành nhiều lớp mới hoặc bổ sung thông tin cho
+các lớp đang tồn tại.
+◼ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+12
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Đối với thực thể thông tin:
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Đối với thừa tác viên và tác nhân:
+
+NV quan ly
+
+Thủ kho
+
+Nhân Viên
+
+GV biên soạn: Trần Kim Hương
+
+Khách hàng
+
+Khách hàng
+
+Nhà cung cấp
+
+Nhà cung cấp
+
+14
+
+2.1 Tiếp cận theo đối tượng nghiệp vụ
+◼ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+15
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Đề
+
+xuất bởi Rebecca Wirfs-Brock,
+Wilkerson, và Lauren Wiener.
+
+Brian
+
+◼ Ý tưởng:
+◆ Xác định các lớp thông qua việc đọc trong các văn
+
+bản mô tả Use-case hoặc các mô tả yêu cầu để
+tìm kiếm và trích lọc các cụm danh từ.
+
+GV biên soạn: Trần Kim Hương
+
+16
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+18
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Ví dụ: xác định các lớp của hệ thống ATM
+◆ Xác định danh từ, cụm danh từ:
+
+GV biên soạn: Trần Kim Hương
+
+19
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+20
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Loại bỏ các lớp giả (irrelevant):
+
+GV biên soạn: Trần Kim Hương
+
+21
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+22
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Đồng nhất các ứng viên trùng lắp:
+
+GV biên soạn: Trần Kim Hương
+
+23
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+24
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Xác định danh từ, cụm danh từ có thể là thuộc tính:
+◆ Chỉ được sử dụng như là giá trị
+◆ Không có nhiều hơn một đặc trưng riêng, hoặc chỉ mô tả
+
+một đặc trưng của đối tượng khác.
+◼ Ví dụ: Hệ thống ATM
+◆ Số tiền → một giá trị, không phải một lớp
+◆ Số dư tài khoản → thuộc tính của lớp tài khoản
+
+◆ PIN không hợp lệ → một giá trị, không phải một lớp
+◆ Mật khẩu → một thuộc tính (có thể của lớp Giao dịch)
+◆ Lịch sử giao dịch → một thuộc tính (có thể của lớp Giao dịch)
+
+◆ PIN → một thuộc tính (có thể của lớp Khách hàng)
+GV biên soạn: Trần Kim Hương
+
+25
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+26
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Danh sách các cụm từ còn lại:
+
+GV biên soạn: Trần Kim Hương
+
+27
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Loại bỏ các ứng viên không mục tiêu hoặc không
+
+thuộc phạm vi hệ thống:
+− Thông điệp
+− Hệ thống
+− Mẫu tin
+− Ngân quỹ
+− VND
+
+− Tiền mặt
+− Tiến trình đăng nhập
+
+GV biên soạn: Trần Kim Hương
+
+28
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+29
+
+2.2 Tiếp cận theo cụm danh từ
+
+GV biên soạn: Trần Kim Hương
+
+30
+
+2.2 Tiếp cận theo cụm danh từ
+Kết quả các lớp được xác định:
+◆Máy ATM: cung cấp giao diện để người dùng thực hiện các giao
+
+dịch.
+◆Thẻ ATM: cung cấp một khách hàng với một khóa tới một tài
+khoản.
+◆Khách hàng: một khách hàng là một cá nhân sử dụng máy ATM,
+có một tài khoản.
+◆Ngân hàng: các khách hàng phụ thuộc vào ngân hàng. Nó là một
+nơi tập trung các tài khoản và xử lý các giao dịch tài khoản.
+◆Tài khoản: nó mô hình hóa một tài khoản của khách hàng và
+cung cấp các dịch vụ về tài khoản cho khách hàng.
+◆Giao dịch: mô tả một giao tác của khách hàng khi sử dụng thẻ
+ATM. Một giao tác được lưu trữ với thời gian, ngày, loại, số tiền,
+và số dư.
+GV biên soạn: Trần Kim Hương
+
+31
+
+2.2 Tiếp cận theo cụm danh từ
+◼ Kết quả các lớp được xác định:
+
+GV biên soạn: Trần Kim Hương
+
+32
+
+2.3 Tiếp cận theo phân loại
+◼
+
+Phân loại các lớp của hệ thống dựa trên mẫu chung.
+
+◼
+
+Lớp khái niệm (concept):
+◆ Một khái niệm là một quan niệm hoặc sự hiểu biết riêng biệt
+
+về thế giới. Lớp khái niệm bao gồm các nguyên lý được dùng
+để tổ chức hoặc để lưu trữ các hoạt động và các trao đổi về
+mặt quản lý.
+◆ Ví dụ: các lớp khái niệm có thể là: phương pháp, hiệu năng,
+
+mô hình, …
+◼
+
+Lớp sự kiện (event):
+◆ Lớp sự kiện là các điểm thời gian cần được lưu trữ. Các sự
+
+việc xảy ra tại một thời điểm, hoặc một bước trong một dãy
+tuần tự các bước.
+◆ Ví dụ: đăng ký, hóa đơn, đơn hàng, phiếu nhập, …
+GV biên soạn: Trần Kim Hương
+
+33
+
+2.3 Tiếp cận theo phân loại
+◼
+
+Lớp tổ chức (organization):
+◆ Tập hợp con người, tài nguyên, phương tiện, hoặc những
+
+nhóm xác định chức năng người dùng.
+◆ Ví dụ: đơn vị, bộ phận, phòng ban, chức danh,...
+
+◼
+
+Lớp con người (people):
+◆ Lớp con người thể hiện các vai trò khác nhau của người
+
+dùng trong việc tương tác với hệ thống.
+◆ Những đối tượng này thường là người dùng hệ thống hoặc
+
+những người không sử dụng hệ thống nhưng thông tin về
+họ được lưu trữ bởi hệ thống.
+◆ Ví dụ: sinh viên, khách hàng, giáo viên, nhân viên, …
+
+GV biên soạn: Trần Kim Hương
+
+34
+
+2.3 Tiếp cận theo phân loại
+◼
+
+Lớp vị trí (place):
+◆ Các vị trí vật lý mà hệ thống cần mô tả thông tin về nó.
+◆ Ví dụ: tòa nhà, kho, văn phòng, chi nhánh, đại lý,…
+
+◼
+
+Lớp sự vật hữu hình và thiết bị:
+◆ Các đối tượng vật lý hoặc các nhóm của đối tượng hữu
+
+hình mà có thể cảm nhận trực quan và các thiết bị mà hệ
+thống tương tác.
+◆ Ví dụ: xe hơi, máy bay,… là các sự vật hữu hình; thiết bị
+
+cảm ứng nhiệt là một lớp thiết bị.
+
+GV biên soạn: Trần Kim Hương
+
+35
+
+2.3 Tiếp cận theo phân loại
+◼ Ví dụ: Hệ thống ATM
+◆ Các lớp khái niệm:
+
+Tai khoan
+
+◆ Các lớp sự kiện:
+
+Giao Dich
+
+◆ Các lớp tổ chức:
+
+Ngan Hang
+
+◆ Các lớp con người:
+
+Khach Hang
+
+◆ Các lớp hữu hình và thiết bị:
+
+May ATM
+
+The ATM
+GV biên soạn: Trần Kim Hương
+
+36
+
+2.4 tiếp cận theo phân tích hoạt động UC
+Đối tượng nào tiếp theo
+được chuyển giao trách
+nhiệm?
+→ Tạo thành một lớp
+tương ứng
+
+Đối tượng nào của hệ thống
+sẽ trực tiếp tương tác với
+tác nhân?
+
+Kết thúc mô tả kịch bản của Use-case cho phép
+xác định tất cả các lớp liên quan tham gia
+GV biên soạn: Trần Kim Hương
+
+38
+
+2.4 tiếp cận theo phân tích hoạt động UC
+
+Đối tượng nào của hệ thống
+sẽ trực tiếp tương tác với
+tác nhân?
+
+GV biên soạn: Trần Kim Hương
+
+39
+
+3. Xác định mối quan hệ giữa các lớp
+◼ Xác định mối kết hợp Association
+◼ Xác định lớp kết hợp Association
+◼ Nâng cấp mối kết hợp
+
+GV biên soạn: Trần Kim Hương
+
+41
+
+3.1 Xác định mối kết hợp Association
+◼
+
+Một sự phụ thuộc giữa 2 hay nhiều lớp có thể thiết lập
+thành một mối kết hợp. Mối kết hợp thường tương ứng
+với một động từ hoặc một cụm giới từ như là thành phần
+của, làm việc cho, chứa trong,…
+
+◼
+
+Một tham chiếu từ một lớp đến một lớp khác là một mối
+kết hợp.
+
+GV biên soạn: Trần Kim Hương
+
+42
+
+3.1 Xác định mối kết hợp Association
+◼ Các mẫu xác định mối kết hợp Association
+◆ Mối kết hợp vị trí: liên kết tới, thành phần của, làm việc
+
+tại,…
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+43
+
+3.1 Xác định mối kết hợp Association
+◼ Các mẫu xác định mối kết hợp Association
+◆ Mối kết hợp sỡ hữu: của, có, thuộc,…
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+44
+
+3.1 Xác định mối kết hợp Association
+◼ Các mẫu xác định mối kết hợp Association
+◆ Mối kết hợp truyền thông liên lạc (communication): đặt
+
+tới, trao đổi với, gửi cho, tiếp nhận từ,…
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+45
+
+3.1 Xác định mối kết hợp Association
+◼ Các mẫu xác định mối kết hợp Association
+◆ Mối kết hợp tự thân: là một quan hệ được thiết lập giữa
+
+một đối tượng thuộc lớp với một đối tượng khác cũng
+thuộc lớp đó.
+
+GV biên soạn: Trần Kim Hương
+
+46
+
+3.1 Xác định mối kết hợp Association
+◼ Các mẫu xác định mối kết hợp Association
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+47
+
+3.1 Xác định mối kết hợp Association
+◼ Loại bỏ các mối kết hợp không cần thiết:
+◆ Mối kết hợp cài đặt: là mối kết hợp mô tả sự liên quan
+
+giữa các lớp trong giai đoạn thiết kế cài đặt hệ thống
+bên trong môi trường phát triển hoặc ngôn ngữ lập trình
+cụ thể và không phải là các mối liên kết giữa các đối
+tượng mô tả nghiệp vụ.
+◆ Mối kết hợp đa phân: là mối kết hợp giữa 3 lớp trở lên,
+
+mối kết hợp này phức tạp trong cách thể hiện → Nếu có
+thể thì phát biểu lại dùng mối kết hợp nhị phân.
+
+GV biên soạn: Trần Kim Hương
+
+48
+
+3.1 Xác định mối kết hợp Association
+◼ Loại bỏ các mối kết hợp không cần thiết:
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+49
+
+3.1 Xác định mối kết hợp Association
+◼ Loại bỏ các mối kết hợp không cần thiết:
+◆ Mối kết hợp trực tiếp dư thừa: là mối kết hợp được
+
+định nghĩa trong ngữ nghĩa của những mối kết hợp
+khác (còn gọi là mối kết hợp suy diễn hoặc bắc cầu)
+
+GV biên soạn: Trần Kim Hương
+
+50
+
+3.1 Xác định mối kết hợp Association
+◼ Xác định bản số cho mối kết hợp (min,max):
+◆ 1; 0..1
+◆ 1..*
+◆ 0..*
+◆ a..* : a là hằng số
+◆ 1 = 1..1
+
+Diễn giải:
+✓ Một bản yêu cầu được gửi tới cho duy nhất 1 phòng ban
+✓ Một phòng ban có thể có từ 0 → nhiều (0..*) bản yêu cầu gửi tới
+GV biên soạn: Trần Kim Hương
+
+51
+
+3.1 Xác định mối kết hợp Association
+◼ Xác định bản số cho mối kết hợp (min,max):
+
+max): quy định khoảng giá trị cho phép một đối
+tượng của một lớp tham gia bao nhiêu lần vào mối kết
+hợp với các đối tượng của lớp khác.
+
+◆ (Min,
+
+GV biên soạn: Trần Kim Hương
+
+52
+
+3.1 Xác định mối kết hợp Association
+◼ Xác định bản số cho mối kết hợp (min,max):
+
+GV biên soạn: Trần Kim Hương
+
+53
+
+3.1 Xác định mối kết hợp Association
+◼ Xác định bản số cho mối kết hợp (min,max):
+◆ VD:
+
+GV biên soạn: Trần Kim Hương
+
+54
+
+3.2 Xác định lớp kết hợp Association
+◼ Khi một mối kết hợp có đặc trưng (thuộc tính, hoạt động
+
+và các mối kết hợp) → có thể tạo một lớp để chứa các
+thuộc tính và kết nối với mối kết hợp = lớp kết hợp.
+◼ Tên của lớp kết hợp này sẽ đại diện cho mối kết hợp
+
+giữa các lớp.
+
+GV biên soạn: Trần Kim Hương
+
+56
+
+3.2 Xác định lớp kết hợp Association
+◼ VD:
+
+GV biên soạn: Trần Kim Hương
+
+57
+
+3.2 Xác định lớp kết hợp Association
+◼
+
+VD:
+
+GV biên soạn: Trần Kim Hương
+
+58
+
+3.3 Nâng cấp mối kết hợp
+định mối kết hợp tổng quát – chuyên biệt
+(generalization): thể hiện quan hệ kế thừa giữa các
+lớp và một cấu trúc phân cấp xác định những dòng kế
+thừa này.
+
+◼ Xác
+
+◼ Xác định mối kết hợp thu nạp (aggregation)
+◼ Xác định mối kết hợp cấu thành (composition)
+
+GV biên soạn: Trần Kim Hương
+
+59
+
+3.3 Nâng cấp mối kết hợp
+định mối kết hợp tổng quát – chuyên biệt
+(generalization):
+
+◼ Xác
+
+◆ Tiếp cận Top-down: VD1
+
+GV biên soạn: Trần Kim Hương
+
+60
+
+3.3 Nâng cấp mối kết hợp
+định mối kết hợp tổng quát – chuyên biệt
+(generalization):
+
+◼ Xác
+
+◆ Tiếp cận Bottom-up: VD2
+
+GV biên soạn: Trần Kim Hương
+
+61
+
+3.3 Nâng cấp mối kết hợp
+định mối kết hợp tổng quát – chuyên biệt
+(generalization):
+
+◼ Xác
+
+◆ Tiếp cận Bottom-up: VD3
+
+GV biên soạn: Trần Kim Hương
+
+62
+
+3.3 Nâng cấp mối kết hợp
+◼ Xác định mối kết hợp thu nạp (aggregation):
+◆ Đặc trưng cơ bản:
+⚫ Tính bắc cầu: Nếu lớp A là một thành phần của lớp B và
+
+lớp B là một thành phần của lớp C thì lớp A là một thành
+phần của lớp C
+⚫ Tính đối xứng: Nếu lớp A là một thành phần của lớp B thì
+
+lớp B không phải là một thành phần của lớp A
+
+GV biên soạn: Trần Kim Hương
+
+63
+
+3.3 Nâng cấp mối kết hợp
+◼ Xác định mối kết hợp thu nạp (aggregation):
+◆ Đặc trưng cơ bản: (tt)
+⚫ Tập hợp: một đối tượng vật lý được hình thành từ các đối
+
+tượng vật lý khác
+
+GV biên soạn: Trần Kim Hương
+
+64
+
+3.3 Nâng cấp mối kết hợp
+◼ Xác định mối kết hợp thu nạp (aggregation):
+◆ Đặc trưng cơ bản: (tt)
+⚫ Vật chứa: một đối tượng vật lý chứa đựng các thành phần
+
+nhưng không được cấu tạo bởi các thành phần
+
+GV biên soạn: Trần Kim Hương
+
+65
+
+3.3 Nâng cấp mối kết hợp
+◼ Xác định mối kết hợp thu nạp (aggregation):
+◆ Đặc trưng cơ bản: (tt)
+⚫ Tập hợp – thành viên: một đối tượng khái niệm chứa các
+
+thành phần có thể là vật lý hoặc khái niệm
+
+GV biên soạn: Trần Kim Hương
+
+66
+
+4. XÁC ĐỊNH THUỘC TÍNH VÀ HÀNH VI CỦA LỚP
+◼ Xác định thuộc tính (attribute)
+◼ Xác định hành vi (operation / method)
+
+GV biên soạn: Trần Kim Hương
+
+68
+
+4.1 Xác định thuộc tính (attribute)
+◼ Câu hỏi:
+◆ Thông tin gì về đối tượng sẽ được quản lý?
+
+◼ Nguyên tắc:
+◆ Tên: danh từ, cụm danh từ
+◆ Đơn giản: chỉ dùng đủ thuộc tính để diễn đạt đối
+
+tượng ở giai đoạn phân tích.
+◆ Không quan tâm về việc khám phá hết thuộc tính.
+
+GV biên soạn: Trần Kim Hương
+
+69
+
+4.1 Xác định thuộc tính (attribute)
+◼ Ví dụ: Hệ thống ATM
+◆ Lớp Khách hàng: phân tích lần lượt tất cả các Use-case
+
+có liên quan đến lớp Khách hàng như là “Đăng nhập”,
+“Xử lý PIN không hợp lệ” → các thuộc tính của lớp
+Khách hàng như sau
+
+GV biên soạn: Trần Kim Hương
+
+70
+
+4.1 Xác định thuộc tính (attribute)
+◼ Ví dụ: Hệ thống ATM
+
+GV biên soạn: Trần Kim Hương
+
+71
+
+4.2 Xác định phương thức (method)
+◼ Câu hỏi:
+◆ Các đối tượng chịu trách nhiệm xử lý gì về thông tin của
+
+nó để cung cấp dịch vụ cho hệ thống?
+◼ Nguyên tắc:
+◆ Tên phương thức: Động từ + Bổ ngữ
+◆ Chỉ quan tâm đến các phương thức có phạm vi toàn
+
+cục (public), các phượng thức có phạm vi cục bộ sẽ
+được phát hiện trong giai đoạn thiết kế cài đặt.
+⚫ VD: phương thức khởi tạo (constructor), …)
+
+◆ Các phương thức chịu trách nhiệm về các thao tác
+
+lên thuộc tính của đối tượng: truy vấn, đọc, ghi.
+GV biên soạn: Trần Kim Hương
+
+72
+
+4.2 Xác định phương thức (method)
+◼ Xác định các phương thức thông qua phân tích hoạt
+
+động của Use-Case
+◆ Phân tích các hoạt động trong sơ đồ tuần tự, để có thể
+
+chuyển một hoạt động thành một phượng thức được
+không.
+◆ Nếu có, đặt tên phượng thức tượng ứng với tên hoạt
+
+động đó.
+◆ Phượng thức chính là một dịch vụ mà lớp cung cấp.
+
+GV biên soạn: Trần Kim Hương
+
+73
+
+4.2 Xác định phương thức (method)
+◼ Xác định các phương thức thông qua phân tích hoạt
+
+động của Use-Case
+◆ Ví dụ: Lớp Tài Khoản
+⚫ Rút tiền
+⚫ Gửi tiền
+⚫ Xem thông tin tài khoản
+
+GV biên soạn: Trần Kim Hương
+
+74
+
+4.2 Xác định phương thức (method)
+◼ Xác định các phương thức thông qua phân tích hoạt
+
+động của Use-Case
+◆ Ví dụ: Lớp Tài Khoản
+⚫ Rút tiền
+⚫ Gửi tiền
+
+⚫ Xem thông tin tài khoản
+
+GV biên soạn: Trần Kim Hương
+
+75
+
+Tóm tắt
+◼ Các bước trong việc phân tích đối tượng hệ thống:
+◆ Xác định các lớp đối tượng
+◆ Xác định các mối quan hệ
+◆ Xác định bản số
+◆ Xác định các lớp kết hợp
+
+định các
+generalization
+
+◆ Xác
+
+quan
+
+hệ
+
+aggregation,
+
+composition,
+
+◆ Xác định thuộc tính
+
+◆ Xác định phương thức
+
+◼ Kết quả:
+◆ Sơ đồ lớp mức phân tích
+GV biên soạn: Trần Kim Hương
+
+76
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+77
+
+

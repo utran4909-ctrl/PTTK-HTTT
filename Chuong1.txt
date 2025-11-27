@@ -1,0 +1,729 @@
+Trường Đại Học Đồng Tháp
+Khoa Công nghệ và Kỹ thuật
+
+PHÂN TÍCH & THIẾT KẾ
+HỆ THỐNG THÔNG TIN
+(Hướng đối tượng - UML)
+
+TRẦN KIM HƯƠNG
+Email: tkhuong@dthu.edu.vn
+
+Chương 1
+
+TỔNG QUAN HỆ THỐNG
+
+THÔNG TIN
+
+Ôn tập
+◼ Thông tin
+◼ Hệ thống
+◼ Hệ thống thông tin
+
+GV biên soạn: Trần Kim Hương
+
+3
+
+Thông tin (Information)
+◼
+
+Dữ liệu (Data)
+◆
+
+◼
+
+Các yếu tố rời rạc như một con số, một chuỗi ký tự
+
+Thông tin (Information)
+◆ Tập hợp các yếu tố dữ liệu
+
+◆ Được truyền từ nguồn phát đến nơi nhận (communication)
+
+◼
+
+Tri thức (Knowledge)
+thông tin được diễn dịch để trở thành sự hiểu biết
+(understanding)
+
+◆ Là
+
+◆ Thông tin là chất liệu để nên sự hiểu biết
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+Thông tin & dữ liệu
+Dữ liệu
+
+Xử lý dữ liệu
+
+Dữ liệu môn
+học
+Dữ liệu thi
+
+Tổng hợp dữ liệu
+
+Thông tin
+
+Bảng điểm
+tổng hợp
+
+Dữ liệu SV
+GV biên soạn: Trần Kim Hương
+
+5
+
+Thông tin (Information)
+“I know that you believe you understand
+what you think I said, but I’m not sure you
+realize that what you heard is not what I
+
+meant.” John Robert McCloskey
+
+GV biên soạn: Trần Kim Hương
+
+6
+
+Hệ thống
+◼ Khái niệm:
+◆ Hệ thống là một tập các thành phần có liên quan
+
+với nhau, cùng vận động, tương tác để thực hiện
+
+một mục tiêu xác định nào đó
+
+GV biên soạn: Trần Kim Hương
+
+7
+
+Hệ thống – ví dụ
+Xem Đại lý băng đĩa ABC như một hệ thống
+Môi trường: khách hàng, nhà cung cấp,
+ngân hàng,…
+
+Đầu vào:
+Băng đĩa,
+tiền mặt,
+lao động,
+tài sản,
+….
+
+Kho
+
+Phòng
+kinh
+doanh
+Văn phòng
+
+Đầu ra:
+Băng đĩa,
+tiền mặt,
+bảng giá,
+hóa đơn,
+…
+
+Giới hạn
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+Hệ hệ thống thông tin
+◼ HTTT là hệ thống thu thập, tạo và phân phối
+
+thông tin có ích trong một tổ chức nhằm thực
+hiện tốt chức năng, nhiệm vụ của tổ chức.
+
+GV biên soạn: Trần Kim Hương
+
+9
+
+Hệ hệ thống thông tin
+◼ Các thành phần của HTTT
+
+GV biên soạn: Trần Kim Hương
+
+10
+
+Các loại hệ thống thông tin
+◼
+
+◼
+
+◼
+
+HTTT tác vụ (TPSTransaction Processing
+Systems)
+
+HTTT-HTQĐ, HCG, HCĐ
+
+HTTT quản lý (MIS–
+Management Information
+Systems)
+
+HTTT-Quản lý
+
+Hệ hỗ trợ ra quyết định (DSS
+– Dicision Support Systems)
+◆ Hệ chuyên gia (ES - Expert
+
+HTTT-Tác vụ
+
+Systems)
+◆ Hệ chỉ đạo (EIS – Executive
+
+Information System)
+GV biên soạn: Trần Kim Hương
+
+11
+
+Các hệ thống thông tin (ví dụ)
+
+DSS
+
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+Hỗ trợ đánh giá kết
+quả học tập của
+sinh viên
+
+MIS
+
+Bảng điểm tổng
+hợp
+
+TPS
+
+Phiếu đăng ký HP
+
+GV biên soạn: Trần Kim Hương
+
+East
+We s t
+N o rt h
+
+1s t Q t r
+
+2 nd Q t r
+
+3 rd Q t r
+
+4th Qtr
+
+Thống kê kết quả
+học tập
+
+Báo cáo tình hình
+học tập
+
+Điểm thi
+
+Bảng điểm
+
+12
+
+3.4 Không gian 3 mức nhận thức
+◼
+
+Mức quan niệm:
+Biểu diễn HTTT ở góc độ trừu tượng hóa, biểu diễn yêu cầu hệ thống
+◆ Độc lập với tin học, kỹ thuật và phương tiện vật lý, ngôn ngữ thể hiện là
+ngôn ngữ phi tin học
+◆ Câu hỏi chính là “cái gì?”
+◆
+
+◼
+
+Mức tổ chức (logic):
+Xác định sự phân bố dữ liệu và xử lý trên các bộ xử lý và sự truyền
+thông giữa các bộ phận, xử lý
+◆ Câu hỏi chính là “ Ai? Ở đâu? Bao giờ?”
+◆
+
+◼
+
+Mức vật lý:
+Biểu diễn HTTT trong một môi trường cụ thể
+◆ Gắn liền với thiết bị phần cứng, phần mềm, …, kỹ thuật và phương tiện
+vật lý.
+◆ Gắn liền với kiến trúc tin học
++ Kiến trúc client-server.
++ Kiến trúc phân tán.
++ Kiến trúc tổng hợp (lai).
+◆ Câu hỏi chính là “như thế nào?”
+◆ Ngôn ngữ thể hiện mức vật lý là ngôn ngữ tin học.
+◆
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+4. Quá trình xây dựng HTTT
+Chu trình phát triển của một HTTT (System Development
+Life Cycle):
+
+GV biên soạn: Trần Kim Hương
+
+15
+
+4.1 Các qui trình phát triển hệ thống
+trình thác nước (waterfall- Royce,
+1970)
+
+◼ Qui
+
+◆ Gồm 5 giai đoạn, một giai đoạn bắt đầu khi giai đoạn trước
+
+nó kết thúc
+◆ Nhược điểm: không có sự quay lui
+Phân tích
+Thiết kế
+Lập trình
+Thử nghiệm
+Nghiệm thu
+
+GV biên soạn: Trần Kim Hương
+
+17
+
+4.1 Các qui trình phát triển hệ thống
+◼
+
+Qui trình tăng trưởng (D. R. Grahma, 1989 )
+◆ Hoàn thành từng thành phần của hệ thống
+
+◆ Mỗi bước tăng trưởng áp dụng qui trình tuyến tính xây dựng hoàn
+
+thành một phần của hệ thống
+◆ Nhược điểm:chỉ phù hợp cho những hệ thống có sự phân chia rõ ràng
+và chuyển giao theo từng phần
+Tăng trưởng 1
+Phân tích
+
+Thiết kế
+
+Lập trình
+
+Thử nghiệm Chuyển giao phần 1
+
+Tăng trưởng 2
+Phân tích
+
+Thiết kế
+
+Lập trình
+
+Thử nghiệm Chuyển giao phần 2
+
+Tăng trưởng 3
+Phân tích
+
+Thiết kế
+
+GV biên soạn: Trần Kim Hương
+
+Lập trình
+
+Thử nghiệm Chuyển giao phần 3
+
+18
+
+4.1 Các qui trình phát triển hệ thống
+◼
+
+Qui trình xoắn ốc (Boehm, 1988 )
+◆ Một đặc điểm quan trọng của qui trình này là nhấn mạnh việc quản lý
+
+rũi ro
+◆ Dựa trên khái niệm chu trình phát triển, qui trình này là các chu trình
+lặp
+Xác định mục tiêu,
+các phương án, các
+ràng buộc
+
+Chu trình 3
+
+Đánh giá các
+phương án
+
+Chu trình 2
+Chu trình 1
+
+Lập kế hoạch cho
+chu trình kế tiếp
+
+GV biên soạn: Trần Kim Hương
+
+Phát triển và kiểm
+tra
+
+19
+
+4.1 Các qui trình phát triển hệ thống
+◼
+
+Qui trình phát triển nhanh (RAD – Rapid
+Development Application - James Martin, 1991)
+◆
+
+Người phát triển hệ thống và các người sử dụng hệ
+thống sẽ làm việc kết hợp chặt chẽ với nhau
+
+◆
+
+Không phải là một phương pháp luận riêng lẽ mà là một
+chiến lược chung để phát triển HTTT, có những đặc
+điểm sau:
+⚫
+
+Sử dụng các công cụ phần mềm và các môi trường phát
+triển trực quan để để biểu diễn tối đa các kết quả đạt được
+
+⚫
+
+Đẩy nhanh việc phân tích vấn đề, thiết kế một giải pháp hệ
+thống
+
+⚫
+
+Là một quá trình lặp thay đổi và điểu chỉnh
+
+GV biên soạn: Trần Kim Hương
+
+20
+
+4.1 Các qui trình phát triển hệ thống
+◼
+
+Qui trình phát triển nhanh do James martin đề xuất 1991
+
+Xác lập yệu cầu
+(Requirements
+planning)
+Thiết kế
+(User design)
+Xây dựng
+(Construction)
+
+Chuyển giao
+(Cutover)
+
+GV biên soạn: Trần Kim Hương
+
+21
+
+4.1 Các qui trình phát triển hệ thống
+◼ Qui trình đồng nhất của Rational (RUP – Rational
+
+Unified Process)
+
+Click here for information about understanding and capturing business processes.
+
+Click here for information about understanding, capturing and managing user needs.
+
+Click here for information about transforming requirements into software designs.
+
+Click here for information about implementing software.
+
+Một vòng lặp
+trong giai đoạn
+construction
+
+Click here for information about testing applications.
+
+Click here for information about deploying an application to its user community.
+
+Click here for information about managing risk, features, schedules and resources.
+
+Click here for information about Process configuration.
+
+Click here for information about configuration and change management.
+
+GV biên soạn: Trần Kim Hương
+
+23
+
+4.2 Các giai đoạn cơ bản của một qui trình
+◼
+
+Qui trình phát triển được chọn trong hệ thống bao gồm 6
+giai đoạn: xác định và chọn lựa dự án, khởi tạo và lập kế
+hoạch dự án, phân tích, thiết kế, cài đặt, và bảo trì.
+Xác định và
+chọn lựa dự án
+Khởi tạo và lập
+kế hoạch dự án
+Phân tích
+
+Thiết kế
+
+Cài đặt
+
+Bảo trì
+
+GV biên soạn: Trần Kim Hương
+
+24
+
+4.2 Các giai đoạn
+◼ Xác định và chọn lựa dự án
+
+Xác định dự án
+tiềm năng
+Nhu cầu thực tế
+nhận được
+
+Nguồn lực tồn tại
+và có sẵn
+
+Các dự án tiềm
+năng và đang
+thực hiện
+
+Quyết định
+chọn lựa dự án
+
+Môi trường tổ
+chức hiện hành
+
+Tiêu chuẩn đánh
+giá
+
+GV biên soạn: Trần Kim Hương
+
+Kết quả quyết định:
+. chấp nhận dự án
+. từ chối dự án
+. hoãn dự án
+. xem xét lại dự án
+. kiểm chứng khái
+niệm
+
+Phân loại và xếp
+hạng dự án
+Chọn lựa dự án
+
+25
+
+4.2 Các giai đoạn
+◼ Lập kế hoạch và khởi tạo dự án
+◆ Thành lập đội
+
+ngũ ban đầu
+
+◆ Khảo sát tổng thể hệ thống
+◆ Lập kế hoạch
+◆ Xác định phạm vi, nguồn lực, các nguyên tắc làm việc
+◆ Đánh giá khả thi
+
+◆ Xây dựng tài liệu mô tả hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+26
+
+4.2 Các giai đoạn
+◼ Phân tích hệ thống
+◆ Xác định yêu cầu hệ thống
+◆ Cấu trúc hóa yêu cầu: mô hình hoá và phân tích yêu
+
+cầu có thể dùng
+sinh các phương án hệ thống và chọn lựa
+phương án khả thi nhất
+
+◆ Phát
+
+◆ Phương pháp hướng đối tượng:
+⚫ Xác định các lớp và đối tượng quan trọng
+
+⚫ Mô tả yêu cầu hệ thông qua việc xác định tác nhân
+
+và use case
+⚫ Mô tả kịch bản chức năng qua các sơ đồ động
+GV biên soạn: Trần Kim Hương
+
+27
+
+4.2 Các giai đoạn
+◼ Thiết kế
+◆ Chi tiết hóa các lớp giai đoạn phân tích thành một giải
+
+pháp kỹ thuật thực hiện → bổ sung các lớp kỹ thuật
+tạo ra một kiến trúc kỹ thuật thực hiện
+
+Các lớp phân tích
+GV biên soạn: Trần Kim Hương
+
+Các lớp kỹ thuật bổ sung
+28
+
+4.2 Các giai đoạn
+◼ Thiết kế
+◆ Thiết kế luận lý
+⚫ Đặc tả hệ thống ở mức độ trừu tượng hóa dựa trên giải
+
+pháp được chọn
+⚫ Độc lập với phần cứng, phần mềm và môi trường kỹ
+
+thuật
+⚫ Tập trung vào biểu diễn hành vi và tính năng đối tượng
+
+hệ thống
+◆ Thiết kế vật lý: chuyển đổi thiết kế luận lý sang các đặc tả
+
+phần cứng, phần mềm, kỹ thuật được chọn để cài đặt hệ
+thống
+GV biên soạn: Trần Kim Hương
+
+29
+
+4.2 Các giai đoạn
+◼
+
+Lập trình cài đặt
+◆ Lập trình hệ thống
+
+◆ Thử nghiệm
+◆ Xây dựng tài liệu hệ thống: tài liệu đặc tả hệ thống, tài liệu
+
+sử dụng, tài liệu kỹ thuật cài đặt
+◆ Huấn luyện sử dụng
+◼
+
+Triển khai vận hành
+◆ Đưa hệ thông vào vận hành thực tế + đánh giá
+
+◼
+
+Bảo trì
+◆ Giải quyết các lỗi phát sinh trong quá trình sử dụng
+◆ Điều chỉnh những thay đổi sao cho phù hợp với các thay
+
+đổi hệ thống
+◆ Nâng cấp hệ thống mới
+GV biên soạn: Trần Kim Hương
+
+30
+
+5. Phương tiện dùng trong xây dựng HT
+◼
+
+Phương pháp luận (phương pháp phân tích thiết kế)
+◆ Là một tập các khái niệm, quy tắc, thứ tự và cách thực hiện để
+
+biểu diễn và phát triển HTTT.
+◼
+
+Mô hình:
+◆ Là một dạng thể hiện đơn giản hoá của thế giới thực (UML)
+
+◼
+
+Công cụ:
+◆ Văn bản, cây quyết định,…
+◆ Microsoft
+
+Project, Microsoft Visio, RationalRose, Enterprise
+Architect ,…
+
+◆ SQL Server, Access, VB,…
+
+GV biên soạn: Trần Kim Hương
+
+31
+
+6. Phương pháp PTTK HT Hướng đối tượng
+◼
+
+Ra đời vào những năm 90 dựa trên ý tưởng lập trình
+hướng đối tượng.
+
+◼
+
+OOD: Oject Oriented Design – G.Booch 1991
+
+◼
+
+HOOD: Hierarchical Oject Oriented Design
+
+◼
+
+OMT: Oject Modeling Technique
+
+◼
+
+OOA: Object Oriented Analysis-Coad 90,91
+
+◼
+
+UML / RUP
+
+◼
+
+…
+
+GV biên soạn: Trần Kim Hương
+
+32
+
+7. Các TP tham gia xây dựng HTTT
+1. Người dùng
+2. Người quản lý
+3. Người phân tích hệ thống
+
+4. Người thiết kế hệ thống
+5. Người lập trình
+
+6. Người điều hành
+
+GV biên soạn: Trần Kim Hương
+
+33
+
+Sơ đồ xây dựng HTTT tin học hóa
+THIẾT KẾ
+
+PHÂN TÍCH
+
+Hệ thống cũ họat
+động như thế nào?
+
+Hệ thống cũ
+làm gì?
+
+Hệ thống mới
+phải làm gì?
+
+Tìm hiểu yêu cầu thực tế
+và yêu cầu sử dụng.
+
+Xác định hệ thống
+mới phải làm như thế
+nào?
+
+THỰC HIỆN
+
+Mã hóa, chuyển giao,
+bảo trì.
+Bắt đầu
+
+GV biên soạn: Trần Kim Hương
+
+37
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+38
+
+

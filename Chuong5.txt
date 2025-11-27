@@ -1,0 +1,1836 @@
+CHƯƠNG 5
+
+MÔ HÌNH HÓA HỆ THỐNG
+
+NỘI DUNG
+1
+
+Luồng công việc
+
+2
+
+Phân tích hệ thống
+
+3
+
+Thiết kế usecase
+
+GV biên soạn: Trần Kim Hương
+
+2
+
+1. Luồng công việc
+
+Phân tích hệ
+thống
+
+Đánh giá hiện
+trạng tổ chức
+
+Xác định
+thuật ngữ
+Lập mô hình use
+case hệ thống
+
+Thiết kế use
+case
+
+Xác định ràng
+buộc
+
+Xác định tác nhân và
+use case hệ thống
+
+Đặc tả use
+case
+
+Xác định thực
+thể
+
+Hiện thực
+Lập mô hình lớp đối
+hoá use case
+tượng
+GV biên soạn: Trần Kim Hương
+
+4
+
+2. Phân tích hệ thống
+
+Phân tích hệ
+thống
+
+Đánh giá hiện
+trạng tổ chức
+
+Xác định
+thuật ngữ
+Lập mô hình use
+case hệ thống
+
+Xác định ràng
+buộc
+
+GV biên soạn: Trần Kim Hương
+
+Xác định tác nhân và
+use case hệ thống
+
+6
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Sơ đồ tổ chức
+◼ Xác định đối tượng liên quan và khách hàng
+◼ Mô tả nhu cầu của từng đối tượng liên quan
+◼ Giới hạn hệ thống phát triển
+◼ Xác định và mô tả vấn đề có hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+7
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Mục đích:
+◆ Đánh giá và nắm bắt thông tin về tổ chức nghiệp vụ
+
+định các đối tượng tham gia (stakeholder) và
+khách hàng của hệ thống.
+
+◆ Xác
+
+◆ Định nghĩa phạm vi của việc mô hình hóa nghiệp vụ.
+◆ Tán thành những tiềm năng cải tiến và các mục tiêu
+
+mới của tổ chức.
+◆ Mô tả những mục tiêu chính của tổ chức.
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Nắm bắt thông tin về tổ chức:
+◆ Cơ cấu tổ chức, phân cấp và các vai trò trong hệ thống.
+◆ Mô tả ngắn gọn các thành phần và mối quan hệ này thông
+
+qua sơ đồ tổ chức
+
+Tổ văn phòng
+
+Tổ bảo vệ
+
+Tổ thu ngân
+
+Tổ mặt hàng
+
+Cần mô tả ngắn gọn
+bằng văn bản vai trò và
+họat động của từng
+thành phần trong tổ
+chức
+Tổ tin học
+
+Sơ đồ tổ chức của siêu thị
+GV biên soạn: Trần Kim Hương
+
+9
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Nắm bắt thông tin về tổ chức
+◆ ví dụ: mô tả thông tin hoạt động
+
+Tổ văn phòng: Gồm 1 Giám Đốc và 2 phó Giám Đốc
+có nhiệm vụ điều phối toàn bộ hoạt động của siêu thị.
+Tổ phải nắm được tình hình mua bán, doanh thu của
+siêu thị để báo cáo lại cho ban giám đốc. Việc báo cáo
+được thực hiện hàng tháng, hàng quý hoặc cũng có khi
+báo cáo đột xuất theo yêu cầu
+
+GV biên soạn: Trần Kim Hương
+
+10
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Xác định các đối tượng liên quan và khách hàng
+◆ Đối tượng liên quan (stakeholder): là những cá nhân
+
+chịu ảnh hưởng trực tiếp từ các tác động của hệ thống.
+
+hàng: người dùng hệ thống, có thể là các
+stakeholder.
+
+◆ Khách
+
+GV biên soạn: Trần Kim Hương
+
+11
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Xác định các đối tượng liên quan và khách hàng
+
+Tên
+Người
+quản lý
+
+Đại diện
+
+Vai trò
+
+Giám đốc, người Theo dõi tiến trình phát triển
+quản lý siêu thị
+của dự án và theo dõi tình hình
+hoạt động của siêu thị.
+
+Nhân viên Người nhập các Chịu trách nhiệm trong khâu
+bán hàng
+thông tin trong hệ bán hàng ở siêu thị, duy trì hoạt
+thống.
+động của siêu thị.
+
+GV biên soạn: Trần Kim Hương
+
+12
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Nắm bắt nhu cầu các đối tượng liên quan
+
+Tên
+
+Mô tả
+
+Người quản lý
+
+Đáp ứng các nhu cầu quản lý siêu thị như
+hàng hóa, khách hàng, doanh số.
+
+Nhân viên bán Đảm bảo rằng hệ thống sẽ đáp ứng các nhu
+hàng
+cầu của công việc bán hàng.
+Khách hàng
+
+Đáp ứng nhu cầu tra cứu thông tin về hàng
+hóa có trong siêu thị.
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Mô tả nhu cầu của từng đối tượng liên quan
+
+Tên
+Người
+quản lý
+
+Độ ưu
+tiên
+Cao
+
+Nhu cầu
+
+Giải pháp
+hiện hành
+
+Giải pháp đề
+xuất
+
+Xem các báo Báo
+cáo Hiển thị báo cáo
+cáo thống kê thống kê theo nhiều tiêu chí
+theo các yêu doanh thu khác nhau, thông
+cầu khác nhau
+tin bố trí dễ nhìn
+và
+đơn
+giản
+nhưng đầy đủ.
+
+GV biên soạn: Trần Kim Hương
+
+14
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Giới hạn hệ thống phát triển
+◆ Xác định ranh giới phát triển hệ thống bằng cách:
+⚫ Chỉ ra những thực thể nằm ngoài hệ thống
+⚫ Chỉ ra những thực thể bên trong tổ chức nhưng nằm ngoài
+
+hệ thống
+Tổ chức
+
+Đối tượng
+Đối tượng bên trong tổ
+môi trường
+chức nhưng nằm ngoài hệ
+tổ chức
+thống nghiệp vụ đang xét
+GV biên soạn: Trần Kim Hương
+
+Hệ thống
+nghiệp vụ thuộc
+phạm vi
+
+Đối tượng
+thuộc hệ
+thống
+
+15
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Giới hạn hệ thống phát triển(tt)
+
+Hệ thống
+tổ chức
+
+Đối tượng bên ngoài tổ
+chức nhưng thuộc hệ
+thống
+
+Hệ thống
+nghiệp vụ
+thuộc phạm
+vi
+
+→Các hệ thống thương mại điện tử e-Business, e-Commerce
+GV biên soạn: Trần Kim Hương
+
+16
+
+2.1 Đánh giá hiện trạng tổ chức
+◼ Xác định và mô tả vấn đề
+◆ Mẫu trình bày
+
+Vấn đề
+
+mô tả vấn đề
+
+Đối tượng chịu tác động
+
+các đối tượng liên quan bị ảnh hưởng
+bởi vấn đề
+tác động ảnh hưởng của vấn đề
+
+Ảnh hưởng của vấn đề
+
+Một giải pháp thành công liệt kê một vài lợi ích của một giải
+pháp thành công
+
+GV biên soạn: Trần Kim Hương
+
+17
+
+2.1 Đánh giá hiện trạng tổ chức
+Trình bày vấn đề có hệ thống
+◼ Ví dụ:
+
+Vấn đề
+
+Cơ sở dữ liệu của các khách hàng thân thiết được lưu trữ ở
+nhiều nơi và không có sự đồng bộ .
+
+Khách hàng, người quản lý
+Đối tượng
+chịu tác động
+
+Ảnh hưởng
+của vấn đề
+
+Dịch vụ khách hàng thân thiết chỉ thiết lập được ở từng siêu
+thị. Điều này là bất hợp lý, làm rắc rối trong việc nâng cao dịch
+vụ khách hàng, làm giảm khả năng cạnh tranh của siêu thị.
+
+Một giải pháp Nhân viên có thể sử dụng chung một tài khoản (account) cấp
+cho mỗi khách hàng được dùng ở tất cả siêu thị. Nâng cao khả
+thành công
+
+năng chăm sóc khách hàng của siêu thị tốt hơn từ đó thu hút
+được khách hàng nhiều hơn, tăng doanh thu của siêu thị. Giúp
+người quản lý có thể làm tốt công tác quản lý khách hàng, theo
+dõi tình hình phục vụ khách hàng một cách dễ dàng.
+
+GV biên soạn: Trần Kim Hương
+
+18
+
+2.2 Xác định các thuật ngữ nghiệp vụ
+
+Thuật ngữ
+
+Diễn giải
+
+Người quản lý
+
+Người quản lý siêu thị và cũng là người quản trị hệ thống.
+Nguoiquanly được gọi chung cho những người được cấp
+quyền là "Quản lý", có thể bao gồm giám đốc, phó giám
+đốc, kế toán, nhân viên tin học, …
+
+Nhân viên bán Là nhân viên làm việc trong siêu thị. Nhân viên bán hàng,
+hàng
+đứng ở quầy thu tiền và tính tiền cho khách hàng. Thông
+qua các mã vạch quản lý trên từng mặt hàng được nhân
+viên bán hàng nhập vào hệ thống thông qua một đầu đọc
+mã vạch.
+Khách
+hàng Khách hàng thân thiết của siêu thị hay khách hàng đăng ký
+thân thiết
+tham gia chương trình khách hàng thân thiết của siêu thị.
+
+GV biên soạn: Trần Kim Hương
+
+19
+
+2.3 Xây dựng mô hình Use Case hệ thống
+◼ Mục đích Use Case Diagram:
+◆ Biểu diễn sơ đồ chức năng của hệ thống
+◆ Chỉ ra sự tương tác giữa các tác nhân và hệ thống
+
+thông qua các use case
+◆ Một sơ đồ use case là một tập hợp các tác nhân, các
+
+use case và các mối quan hệ giữa chúng.
+◆ Các use case trong sơ đồ use case có thể được phân
+
+rã theo nhiều mức khác nhau
+
+GV biên soạn: Trần Kim Hương
+
+20
+
+2.3 Xây dựng mô hình Use Case hệ thống
+◼ Xác định tác nhân hệ thống (Actor)
+◼ Xác định Use case hệ thống (Use case)
+◼ Vẽ sơ đồ Use case hệ thống
+◼ Tinh chế sơ đồ Use case hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+21
+
+2.3 Xây dựng mô hình Use Case hệ thống
+◼ Bộ ký hiệu – Use-case Diagram
+
+GV biên soạn: Trần Kim Hương
+
+22
+
+2.3.1 Xác định tác nhân hệ thống
+◼ Tác nhân là người sử dụng hệ thống (cả người quản
+
+trị hệ thống) hoặc các phần mềm tin học bên ngoài
+nhưng có tương tác với hệ thống đang xét.
+◼ Phương pháp xác định tác nhân hệ thống:
+◆ Sử dụng câu hỏi gợi ý
+
+GV biên soạn: Trần Kim Hương
+
+23
+
+2.3.1 Xác định tác nhân hệ thống
+◼ Một số câu hỏi gợi ý xác định tác nhân:
+◆ Tác nhân chính: là tác nhân sử dụng những chức năng
+
+cơ bản của hệ thống.
+⚫ Ai đang sử dụng hệ thống?
+⚫ Ai được tác động bởi hệ thống?
+⚫ Nhóm đối tượng nào cần hệ thống trợ giúp để làm công
+
+việc?
+
+GV biên soạn: Trần Kim Hương
+
+24
+
+2.3.1 Xác định tác nhân hệ thống
+◼ Một số câu hỏi gợi ý xác định tác nhân:
+◆ Tác nhân hỗ trợ:
+⚫ Nhóm đối tượng nào hệ thống cần để thực hiện hoạt
+
+động
+
+⚫ Những hệ thống tin học bên ngoài nào sử dụng hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+25
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Bước đầu tiên của phân tích yêu cầu là xác định các
+
+use case của hệ thống
+◼ Một use case là một tương tác giữa hệ thống và môi
+
+trường
+◼ Tập hợp các use case là mô tả toàn bộ hệ thống cần
+
+xây dựng
+
+GV biên soạn: Trần Kim Hương
+
+26
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Ví dụ: phát triển phần mềm soạn thảo văn bản
+
+◼ Các use case có thể:
+◆ Nhập văn bản mới
+◆ Sửa văn bản đã tồn tại
+◆ Tạo mục lục
+◆ Chép đoạn văn bản
+
+◆…
+
+GV biên soạn: Trần Kim Hương
+
+27
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Một use case tương ứng với một chức năng của hệ
+
+thống dưới góc nhìn của người sử dụng
+◼ Một use case có thể lớn hoặc nhỏ
+◼ Một use case chỉ ra làm thế nào một mục tiêu của
+
+người sử dụng được thỏa mãn bởi hệ thống
+◼ Cần phân biệt các mục tiêu của người sử dụng và
+
+các tương tác của họ với hệ thống
+◆ Mục tiêu: cái mà người sử dụng
+
+mong đợi
+
+◆ Tương tác: kỹ thuật cho phép đáp ứng mục tiêu
+
+GV biên soạn: Trần Kim Hương
+
+28
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Ví dụ: phần mềm soạn thảo văn bản
+◆ Mục tiêu: có được một văn bản trình bày đẹp
+◆ Tương tác: chọn định dạng trang, chọn font chữ, định nghĩa
+
+các kiểu tiêu đề (heading), …
+◼ Thực tế, chúng ta xác định các mục tiêu trước, sau
+
+đó chọn tập hợp các tương tác đáp ứng các mục tiêu
+đó
+
+GV biên soạn: Trần Kim Hương
+
+29
+
+2.3.2 Xác định Use-Case hệ thống
+◼
+
+Ví dụ: cần xây dựng một hệ thống ATM cho phép rút tiền
+
+◼
+
+Có thể có vài tương tác chung trong một kịch bản sau:
+◆ Đưa thẻ vào
+◆ Nhập mã PIN
+◆ Chọn số tiền rút
+◆ Khẳng định số tiền rút
+◆ Lấy thẻ ra
+◆ Lấy tiền
+◆ Lấy phiếu rút tiền
+
+◼ Các tương tác trên có là các use case không?
+
+GV biên soạn: Trần Kim Hương
+
+30
+
+2.3.2 Xác định Use-Case hệ thống
+
+◼ Phương pháp xác định Use-Case:
+◆ Xác định Use-Case thông qua các tác nhân
+
+GV biên soạn: Trần Kim Hương
+
+32
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Xác định Use-Case thông qua các tác nhân
+◆ Tìm các nhiệm vụ và chức năng mà tác nhân sẽ thi hành
+
+hoặc hệ thống cần tác nhân để thi hành và mô hình hóa
+nó như là Use-Case
+◆ VD: Hệ thống ATM
+Khởi động
+hệ thống
+Rút tiền
+
+Truy vấn thông tin
+tài khoản
+
+Khách hàng
+
+Gửi tiền
+
+GV biên soạn: Trần Kim Hương
+
+Nhân viên
+Vận hành
+Đóng hệ thống
+
+33
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Xác định Use-Case thông qua các tác nhân
+◆ VD: Hệ thống Thư viện
+
+Xử lý mượn sách
+
+Xử lý trả sách
+
+Thủ thư
+
+Nhà cung cấp
+
+Đăng ký thành viên
+Mua sách
+Tra cứu sách
+
+GV biên soạn: Trần Kim Hương
+
+Độc giả
+
+34
+
+2.3.2 Xác định Use-Case hệ thống
+◼ Xác định Use-Case thông qua các tác nhân
+◆ Đặt tên Use-Case: tên Use-case nên đặt nhằm phản
+
+ánh một mô tả tổng quan về chức năng của use-case
+◆ Tên Use-case = động từ (do) + danh từ (what)
+
+GV biên soạn: Trần Kim Hương
+
+35
+
+2.3.3 Sơ đồ Use-Case hệ thống
+◼ Sơ đồ Use-Case mô tả quan hệ giữa các tác nhân và
+
+use case của một hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+36
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Bổ sung các Use-Case mô tả chức năng đặc trưng
+
+phần mềm:
+◆ Các Use-Case quản trị hệ thống:
+⚫ Quản trị người dùng
+
+◆ Các Use-Case quản trị dữ liệu:
+⚫ Quản trị danh mục dữ liệu
+
+– VD: quản lý danh mục sách, danh mục nhà cung cấp, …
+– Quản trị an toàn (backup / restore)
+◆ ….
+
+GV biên soạn: Trần Kim Hương
+
+37
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Bổ sung các Use-Case mô tả chức năng đặc trưng
+
+phần mềm:
+◆ Ví dụ: Trong Hệ thống Thư viện
+
+GV biên soạn: Trần Kim Hương
+
+38
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Phát triển các mối liên kết <<include>> và <extend>>:
+◆ Include: Use-Case A <<include>> Use-Case B:
+⚫ Trong quá trình thực thi Use-case A sẽ luôn cần thực
+
+hiện Use-case B
+
+◆ Extend: Use-Case A <<extend>> Use-Case B:
+⚫ Trong quá trình thực thi Use-case A, trong một số
+
+trường hợp sẽ thực hiện Use-case B
+
+GV biên soạn: Trần Kim Hương
+
+39
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Phát triển các mối liên kết <<include>>:
+
+GV biên soạn: Trần Kim Hương
+
+40
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Phát triển các mối liên kết <<extend>>:
+◆ Tách những dòng xử lý đặc biệt → Use-case mở rộng
+
+GV biên soạn: Trần Kim Hương
+
+41
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Các tác nhân có mối quan hệ thừa kế
+
+GV biên soạn: Trần Kim Hương
+
+42
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Kết quả sơ đồ Use-Case hệ thống Thư viện
+
+GV biên soạn: Trần Kim Hương
+
+43
+
+2.3.4 Tinh chế và nâng cấp sơ đồ Use-Case
+◼ Kết quả sơ đồ Use-Case hệ thống ATM
+
+GV biên soạn: Trần Kim Hương
+
+44
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+◼ Là những quy tắc, quy định xuất hiện trong các quy
+
+trình nghiệp vụ
+◼ Có 4 loại ràng buộc:
+◆ Nguyên tắc kích hoạt và phản ứng
+◆ Nguyên tắc ràng buộc thao tác
+◆ Nguyên tắc ràng buộc cấu trúc
+◆ Nguyên tắc diễn dịch:
+⚫ Nguyên tắc suy luận
+⚫ Nguyên tắc tính toán
+
+GV biên soạn: Trần Kim Hương
+
+45
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+tắc kích hoạt
+và phản ứng:
+
+◼ Nguyên
+
+Giải quyết huỷ
+đơn hàng
+
+◆ Là những ràng buộc hay
+
+điều kiện xác định khi
+nào một hành động xảy ra
+◆ Ví dụ: ràng buộc trong
+hoạt động huỷ một đơn
+hàng
+
+[đơn hàng chưa giao]
+
+[đơn hàng đã giao]
+
+Đóng đơn hàng
+
+Xử lý trả đơn
+hàng
+
+WHEN một đơn đặt hàng bị hủy bỏ
+IF hàng chưa được vận chuyển
+THEN kết thúc đơn đặt hàng
+GV biên soạn: Trần Kim Hương
+
+46
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+◼ Nguyên tắc ràng buộc
+
+thao tác
+◆ Đây là những điều kiện
+
+phải thỏa trước và sau
+thao tác để bảo đảm thao
+tác đó hoạt động đúng
+◆ Ví dụ: Trong một tổ
+chức quản lý đặt hàng,
+nguyên tắc sau đây có
+thể xảy ra
+
+Nhận đơn hàng
+
+[đã có địa chỉ GH]
+
+[không có địa chỉ GH]
+
+Giao hàng
+
+Hoàn thiện hồ
+sơ khách hàng
+
+Vận chuyển Hàng hóa đến chổ Khách hàng
+ONLY IF Khách hàng có địa chỉ
+GV biên soạn: Trần Kim Hương
+
+47
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+◼ Nguyên tắc ràng buộc
+
+cấu trúc
+◆ Xác định các quy định và
+
+điều kiện về các lớp, đối
+tượng, và các mối quan
+hệ giữa chúng
+◆ Ví dụ:
+
+1..*
+Đơn hàng
+
+Sản phẩm
+
+IT MUST ALWAYS HOLD THAT
+Một đơn đặt hàng tham chiếu đến tối thiểu một sản phẩm
+48
+GV biên soạn: Trần Kim Hương
+
+48
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+◼ Nguyên tắc suy luận:
+
+Nhận đơn hàng
+
+◆ Xác định rằng nếu một số
+
+sự kiện nhất định là đúng,
+một kết luận có thể được
+suy ra
+
+Đánh giá k/hàng
+
+[Khách hàng “Tốt”]
+
+◆ Ví dụ: Thiết lập nguyên
+
+tắc sau đây để xác định
+trạng thái của một khách
+hàng
+
+Xử lý huỷ đơn
+hàng
+[Khách hàng “Không Tốt”]
+
+[đã có địa chỉ GH]
+
+[không có địa chỉ GH]
+
+Giao hàng
+
+Hoàn thiện hồ sơ
+khách hàng
+
+Một Khách hàng là một Khách hàng “Tốt” IF AND ONLY IF
+Những hóa đơn chưa thanh toán gửi đến Khách hàng đều ít hơn 30 ngày
+GV biên soạn: Trần Kim Hương
+
+49
+
+2.4 Ràng buộc nghiệp vụ (Business rule)
+◼ Nguyên tắc tính toán:
+◆ Tạo ra kết quả bằng cách
+
+xử lý các thuật toán.
+1..*
+
+1
+Hồ sơ khách hang
+0..*
+
+1
+
+Hồ sơ vùng
+Phần_trăm_thuế
+1..*
+
+Đại diện KH
+
+0..*
+
+Tính_giá()
+
+Đơn hàng
+
+Sản phẩm
+Giá_sản_phẩm
+
+Giá một sản phẩm được tính toán như sau:
+giá sản phẩm * (1 + phần trăm thuế/ 100)
+GV biên soạn: Trần Kim Hương
+
+50
+
+Phân tích hệ thống
+Đánh giá kết quả
+◼ Tất
+
+cả các chức năng cần thiết đã được xác định
+chưa?
+
+◼ Có xác định được Use-Case dư thừa nào không?
+
+vi của mỗi Use-Case có theo đúng thứ tự
+không?
+
+◼ Hành
+
+◼ Luồng
+
+công việc của mỗi Use-Case có hoàn chỉnh
+
+không?
+◼ Tìm thấy được tất cả các Use-Case ?
+
+GV biên soạn: Trần Kim Hương
+
+51
+
+Kết quả quá trình phân tích hệ thống
+◼ Hiện trạng tổ chức
+◆ Nắm bắt thông tin về tổ chức
+◆ Các đối tượng có liên quan và khách hàng
+◆ Giới hạn hệ thống phát triển
+◆ Các vấn đề của hệ thống
+
+◼ Bảng mô tả các thuật ngữ nghiệp vụ
+◼ Mô hình Use-Case hệ thống
+◆ Xác định các tác nhân và Use-Case hệ thống
+◆ Sơ đồ Use-Case hệ thống
+
+◼ Mô tả các ràng buộc
+
+GV biên soạn: Trần Kim Hương
+
+52
+
+Bài tập 1
+Một thư viện có nhu cầu quản lý thông tin mượn sách của độc giả. Quy
+trình đã mô tả như sau:
+Khi độc giả có nhu cầu mượn sách, thủ thư tiến hành kiểm tra thẻ thư viện,
+nếu thẻ không hợp lệ (hết hạn) hoặc chưa có thẻ thư viện, thủ thư hướng
+dẫn độc giả làm thẻ thư viện.
+Quy trình đăng ký thẻ như sau: trước tiên độc giả điền đầy đủ thông tin về
+họ tên, địa chỉ, CMND, … vào mẫu đăng ký và gửi thông tin cho thủ thư,
+đóng tiền và thủ thư hẹn 30 ngày độc giả nhận thẻ. Tiếp theo thủ thư nhận
+thông tin đăng ký tiến hành lưu trong hồ sơ thông tin độc giả, chuyển thông
+tin độc giả đến bộ phận kỹ thuật làm thẻ, sau khi hoàn thành thủ thư tiến
+hành cập nhật tình trạng hồ sơ đăng ký của độc giả. Kết thúc quá trình
+đăng ký thẻ thư viện. Ngược lại, nếu độc giả đã có thẻ thư viện hợp lệ, thủ
+thư kiểm tra độc giả vi phạm quy định 1 (mượn sách quá hạn và không trả
+sách) hay không. Nếu vi phạm, thủ thư từ chối mượn sách, ngược lại tiến
+hành tìm sách và cập nhật tình trạng mượn sách trong hồ sơ giao sách cho
+độc giả, kết thúc quá trình mượn sách.
+“Quy định 1: Độc giả mượn sách phải trả sách trong vòng 7 ngày.”
+GV biên soạn: Trần Kim Hương
+
+53
+
+Bài tập 2
+Quản lý đào tạo nhân viên: Một công ty muốn mô tả bằng UML việc đào tạo
+nhân viên để tin học hóa một số công việc.
+Việc đào tạo được bắt đầu khi người quản lý đào tạo nhận được yêu cầu
+đào tạo của một nhân viên. Nhân viên này có thể xem danh mục các
+chuyên đề đào tạo của các đơn vị đào tạo ký kết với công ty.
+Yêu cầu của nhân viên được xem xét bởi người quản lý đào tạo và người
+quản lý sẽ trả lời là chấp nhận hay từ chối đề nghị đó. Trong trường hợp
+chấp nhận, người quản lý sẽ xác định chuyên đề phù hợp trong danh mục
+các chuyên đề, sau đó gửi cho nhân viên nội dung của chuyên đề và danh
+sách các khóa đào tạo. Nhân viên sẽ chọn khóa đào tạo và người quản lý
+sẽ đăng ký khóa học với đơn vị đào tạo cho nhân viên. Trong trường hợp
+muốn hủy bỏ đăng ký khóa đào tạo, nhân viên phải thông báo sớm cho
+người quản lý biết để người quản lý thực hiện hủy bỏ. Cuối khóa đào tạo,
+nhân viên chuyển phiếu đánh giá kết quả học về cho công ty. Người quản lý
+sẽ kiểm tra hóa đơn thanh toán tiền của đơn vị đào tạo.
+Xây dựng biểu đồ ca sử dụng.
+GV biên soạn: Trần Kim Hương
+
+54
+
+Hướng dẫn thực hành
+◼
+
+Sử dụng phần mềm Enterprise Architect
+
+◼
+
+Vẽ mô hình Use-Case hệ thống cho quản lý mượn sách
+thư viện
+
+GV biên soạn: Trần Kim Hương
+
+55
+
+3. Thiết kế Use Case
+
+Thiết kế
+UseCase
+
+Đặc tả use
+case
+
+Hiện thực
+hoá use case
+
+GV biên soạn: Trần Kim Hương
+
+Xác định thừa
+tác viên và
+thực thể
+
+Đặc tả thừa tác
+viên
+
+Đặc tả thực thể
+
+56
+
+3. Thiết kế Use Case
+◼ Đặc tả Use-case hệ thống
+◼ Xác định thừa tác viên và thực thể
+◆ Thừa tác viên (worker)
+◆ Thực thể nghiệp vụ (entity)
+
+◼ Hiện thực hóa các Use-case hệ thống bằng
+◆ Sơ đồ hoạt động (Activity Diagram)
+◆ Sơ đồ tuần tự (Sequence Diagram)
+◆ Sơ
+
+đồ cộng
+Communication)
+
+GV biên soạn: Trần Kim Hương
+
+tác
+
+(Collaboration
+
+Diagram
+
+&
+
+57
+
+3.1 Đặc tả Use-Case hệ thống
+◼ Xác định tương tác giữa tác nhân và Use-case hệ
+
+thống
+◼ Mô tả luồng công việc chính
+◼ Những luồng công việc bất thường và tùy chọn
+◆ Những luồng sự kiện con tham gia phần lớn vào luồng
+
+sự kiện chính
+◆ Những luồng sự kiện bất thường giúp cho luồng sự
+kiện chính rõ ràng hơn.
+◆ Những luồng sự kiện con xảy ra ở những khoảng thời
+gian khác nhau trong cùng một luồng công việc và
+chúng có thể được thực thi
+
+GV biên soạn: Trần Kim Hương
+
+58
+
+3.1 Đặc tả Use-case hệ thống
+◼ Mẫu đặc tả
+
+GV biên soạn: Trần Kim Hương
+
+59
+
+3.1 Đặc tả Use-case hệ thống
+◼ Mẫu mô tả Use-case:
+
+GV biên soạn: Trần Kim Hương
+
+60
+
+3.1 Đặc tả Use-case hệ thống
+◼ VD1 Mô tả Use-case Giao dịch:
+
+GV biên soạn: Trần Kim Hương
+
+61
+
+3.1 Đặc tả Use-case hệ thống
+◼ VD1 Mô tả Use-case Giao dịch (tt):
+
+GV biên soạn: Trần Kim Hương
+
+62
+
+3.1 Đặc tả Use-case hệ thống
+◼ VD2 Mô tả Use-case Rút tiền:
+
+GV biên soạn: Trần Kim Hương
+
+63
+
+3.1 Đặc tả Use-case hệ thống
+◼ VD2 Mô tả Use-case Rút tiền (tt):
+
+GV biên soạn: Trần Kim Hương
+
+64
+
+3.2 Xác định thừa tác viên và thực thể
+◼ Thừa tác viên (worker)
+◆ Một
+
+thừa tác viên biểu diễn sự trừu tượng của một
+người hoạt động trong nghiệp vụ.
+
+◆ Một thừa tác viên có thể tương tác với các thừa tác viên
+
+khác và thao tác với các thực thể để hiện thực hóa hoạt
+động của một Use-Case
+◆ Thừa tác viên hoạt động khi luồng công việc của một
+
+thể hiện Use-case được bắt đầu.
+◆ Có 2 loại thừa tác viên:
+⚫ Thừa tác viên thực hiện các công việc bên trong hệ thống
+⚫ Thừa tác viên tương tác với các tác nhân bên ngoài hệ thống
+GV biên soạn: Trần Kim Hương
+
+65
+
+3.2 Xác định thừa tác viên và thực thể
+◼ Thừa tác viên (worker)
+◆ ký hiệu:
+
+act Business Process Model
+
+worker thuc hien cong viec ben
+trong nv
+
+◆ Ví dụ:
+
+worker tuong tac voi tac nhan
+ben ngoai
+
+act Business Process Model
+
+Thu kho
+
+GV biên soạn: Trần Kim Hương
+
+Nhan vien ban hang
+
+66
+
+3.2 Xác định thừa tác viên và thực thể
+◆ Thực thể (entity):
+◆ Biểu diễn những sự vật được thừa tác viên sử
+
+dụng để thực hiện nghiệp vụ.
+◆ Ký hiệu:
+act Business Proce...
+
+Thuc the
+
+GV biên soạn: Trần Kim Hương
+
+67
+
+3.2 Xác định thừa tác viên và thực thể
+◆ Thực thể (entity):
+◆ Sự vật có thể là:
+◆ Đối tượng thông tin: các đối tượng dùng để chứa
+
+thông tin dữ liệu hệ thống như là: sổ sách, chứng
+từ, hồ sơ, giấy tờ, thẻ, báo cáo, tập tin, CSDL,…
+
+act Business Process Model
+
+The thu vien
+
+GV biên soạn: Trần Kim Hương
+
+Ho so khach hang
+
+Hoa don
+
+So nhat ky ban hang
+
+68
+
+3.2 Xác định thừa tác viên và thực thể
+◆ Thực thể (entity):
+◆ Sự vật có thể là:
+◆ Đối tượng sự vật: các đối tượng mô tả các sự vật
+
+trong hoạt động nghiệp vụ như là: các đối tượng
+trong quá trình sản xuất, các trang thiết bị, …
+act Business Process Model
+
+Hang hoa
+
+GV biên soạn: Trần Kim Hương
+
+Nguyen vat lieu
+
+Sach
+
+May tinh
+
+69
+
+3.2 Hiện thực hóa Use-Case hệ thống
+◼ Hiện
+
+thực hoá Use-Case hệ thống (Use-Case
+realization):
+◆ Mô tả cách thức một Use-case cụ thể được hiện thực
+
+hóa bên trong mô hình đối tượng dưới dạng các đối
+tượng cộng tác với nhau thực hiện hoạt động của
+Use-case.
+◆ Hiện thực hóa Use-case hệ thống được đặc tả với:
+⚫ Sơ đồ hoạt động (Activity Diagram)
+
+⚫ Sơ đồ tuần tự(Sequence Diagram)
+⚫ Sơ
+
+đồ cộng tác (Collaboration
+Communication Diagram)
+
+GV biên soạn: Trần Kim Hương
+
+Diagram
+
+hoặc
+
+70
+
+3.2 Hiện thực hóa Use-Case hệ thống
+◼ Sơ đồ hoạt động (Activity Diagram)
+◆ Sắp xếp các công việc theo thứ tự xử lý một hệ thống, cho
+
+thấy vai trò và các thực thể tham gia vào hoạt động.
+◼ Sơ đồ tuần tự (Sequence Diagram)
+◆ Mô tả trình tư các sự kiện của quy trình.
+
+◼ Sơ đồ cộng tác (Collaboration Diagram)
+◆ Trình bày các liên kết giao tiếp và những thông điệp giữa
+
+các đối tượng.
+
+GV biên soạn: Trần Kim Hương
+
+71
+
+3.2 Hiện thực hóa Use-Case nghiệp vụ
+◼ Kết quả
+
+của việc xây dựng mô hình Use-case
+hiện thực hóa
+
+GV biên soạn: Trần Kim Hương
+
+72
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Phương pháp phân tích thiết kế truyền thống
+◆ Sơ đồ dòng dữ liệu (DFD – Data Flow Diagram)
+
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+73
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Phương pháp phân tích thiết kế HĐT
+◆ Sơ đồ hoạt động
+
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+74
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Phương pháp phân tích thiết kế HĐT
+◆ Sơ đồ hoạt động
+
+◆ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+75
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Sơ đồ hoạt động: cho phép mô tả hoạt động của hệ
+
+thống
+◼ Một sơ đồ hoạt động định nghĩa:
+◆ Các hoạt động (activity) của hệ thống và của các tác nhân
+
+◆ Thứ tự mà các hoạt động này được thực hiện
+◆ Phụ thuộc có thể giữa các hoạt động này
+
+◼
+
+Một hoạt động tương ứng với một công việc ở mức trừu
+tượng cao có mục đích xác định
+
+GV biên soạn: Trần Kim Hương
+
+76
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Ví dụ: các hoạt động
+
+GV biên soạn: Trần Kim Hương
+
+77
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Bộ ký hiệu Activity Diagram
+
+GV biên soạn: Trần Kim Hương
+
+78
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Activity Diagram
+
+GV biên soạn: Trần Kim Hương
+
+79
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ VD: mô tả Use-case Đăng nhập bằng Activity Diagram
+
+GV biên soạn: Trần Kim Hương
+
+80
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Đồng bộ hóa các hoạt động
+
+GV biên soạn: Trần Kim Hương
+
+81
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Biểu diễn hoạt động có điều kiện
+
+GV biên soạn: Trần Kim Hương
+
+82
+
+3.2.1 Hiện thực hóa = Activity Diagram
+◼ Ví dụ:
+
+GV biên soạn: Trần Kim Hương
+
+83
+
+3.2.1 Hiện thực hóa = Activity Diagram
+dùng để phân luồng các hoạt động liên
+quan đến các tác nhân hoặc hệ thống
+
+◼ Swimlane:
+
+GV biên soạn: Trần Kim Hương
+
+85
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biểu diễn sự tương tác giữa các đối tượng bằng việc
+
+nhấn mạnh thứ tự trao đổi thông điệp giữa các đối
+tượng.
+◼ Biêu đồ tuần tự gồm:
+◆ Tác nhân (actor)
+⚫ Là con người hoặc hệ thống bên ngoài
+⚫ Tham gia vào quy trình với chức năng gửi/ nhận thông điệp
+
+GV biên soạn: Trần Kim Hương
+
+87
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Đối tượng (object)
+⚫ Tham gia vào qui trình với các chức năng gửi/ nhận thông điệp.
+
+GV biên soạn: Trần Kim Hương
+
+88
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Đường sống của đối tượng (Lifeline)
+⚫ Thể hiện vòng đời của đối tượng trong suốt
+
+quá trình tương tác
+
+⚫ Nếu trên đường sống của đối tượng xuất hiện điểm dừng X, thì
+
+đối tượng không còn tương tác với đối tượng khác.
+
+GV biên soạn: Trần Kim Hương
+
+89
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Kích hoạt thực thi (execution occurrence)
+⚫ Thể hiện khi một đối tượng gửi/ nhận một thông điệp.
+⚫ Được đặt dọc theo đường sống của đối tượng
+
+GV biên soạn: Trần Kim Hương
+
+90
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Thông điệp (messages)
+⚫ Thể hiện thông tin đi từ một đối tượng này đến đối tượng khác
+
+GV biên soạn: Trần Kim Hương
+
+91
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Thông điệp có điều kiện (guard condition)
+⚫ Thể hiện thông tin đi từ một đối tượng này đến đối tượng khác
+
+GV biên soạn: Trần Kim Hương
+
+92
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Biêu đồ tuần tự gồm(tt):
+◆ Kết thúc hoạt động của đối tượng (object destruction)
+⚫ Thể hiện kết thúc chu kỳ sống của một đối tượng, nghĩa là đối
+
+tượng không còn tham gia vào quy trình tương tác.
+
+GV biên soạn: Trần Kim Hương
+
+93
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Sequence Diagram
+
+GV biên soạn: Trần Kim Hương
+
+94
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Sơ đồ tuần tự:
+◆ Mỗi đối tượng có một đường sinh tồn (lifeline) biểu
+
+diễn thời gian tồn tại của nó.
+
+GV biên soạn: Trần Kim Hương
+
+95
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Sơ đồ tuần tự:
+◆ Thời gian hoạt động (activation) là thời gian mà đối
+
+tượng đang thực hiện một thao tác
+
+GV biên soạn: Trần Kim Hương
+
+96
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ Sơ đồ tuần tự:
+◆ Một thông điệp đặc tả trao đổi giữa các đối tượng
+◆ Các loại thông điệp:
+⚫ Gọi (call)
+⚫ Trả lời (return)
+
+⚫ Gửi (send)
+⚫ Tạo (create)
+⚫ Hủy (destroy)
+
+GV biên soạn: Trần Kim Hương
+
+97
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Thông điệp gọi (message): gọi một phương thức/thao tác trên đối
+
+tượng
+⚫ Đối tượng gọi phải chờ thông điệp được thực hiện kết thúc mới có
+
+thể thực hiện công việc khác (thông điệp đồng bộ)
+◆ Một đối tượng có thể gửi thông điệp cho chính nó (seft-message)
+
+GV biên soạn: Trần Kim Hương
+
+98
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Thông điệp trả về (return): trả về một giá trị cho đối tượng gọi
+
+GV biên soạn: Trần Kim Hương
+
+99
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Thông điệp gửi: gửi một tín hiệu đến một đối tượng
+
+⚫ Khác với thông điệp gọi, khi đối tượng gửi thông điệp gửi, nó
+
+không chờ đợi, mà tiếp tục thực hiện công việc khác (thông
+điệp không đồng bộ)
+◆ Ký hiệu:
+
+GV biên soạn: Trần Kim Hương
+
+100
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Thông điệp gọi đệ quy (Recursion):
+
+GV biên soạn: Trần Kim Hương
+
+101
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Một thông điệp có thể gửi lặp lại nhiều lần:
+
+GV biên soạn: Trần Kim Hương
+
+102
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Một thông điệp có thể gửi lặp lại nhiều lần phụ thuộc vào một
+
+điều kiện:
+
+GV biên soạn: Trần Kim Hương
+
+103
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Một
+
+thông điệp có thể được gửi phụ thuộc vào điều kiện rẽ
+nhánh:
+
+GV biên soạn: Trần Kim Hương
+
+104
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼
+
+Sơ đồ tuần tự:
+◆ Thông điệp tạo mới gọi phương thức tạo một đối tượng.
+
+◆ Thông điệp hủy gọi phương thức hủy một đối tượng
+
+GV biên soạn: Trần Kim Hương
+
+105
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ VD: mô tả use-case Tìm khách hàng
+
+GV biên soạn: Trần Kim Hương
+
+108
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+◼ VD: mô tả use-case Thêm sách
+
+GV biên soạn: Trần Kim Hương
+
+109
+
+3.2.2 Hiện thực hóa = Sequence Diagram
+
+BÀI TẬP
+
+GV biên soạn: Trần Kim Hương
+
+110
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Sơ đồ cộng tác:
+◆ Biểu diễn tương tác giữa các đối tượng, trong đó nhấn
+
+mạnh sự tham gia của các đối tượng thông qua những
+mối liên kết giữa chúng và các thông điệp (message)
+chúng gửi cho nhau.
+◆ Biểu đồ cộng tác chỉ ra:
+⚫ Thứ tự gửi các thông điệp: mỗi thông điệp được gán
+
+một số tuần tự
+⚫ Điều kiện gửi các thông điệp.
+
+GV biên soạn: Trần Kim Hương
+
+111
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Sơ đồ cộng tác:
+◆ Gồm các thành phần:
+⚫ Tác nhân (actor)
+⚫ Đối tượng (object)
+
+⚫ Sự kết hợp (association)
+⚫ Thông điệp (message)
+⚫ Thông điệp có điều kiện (guard condition)
+
+GV biên soạn: Trần Kim Hương
+
+112
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Gồm các thành phần:
+◆ Sự kết hợp (association):
+⚫ Thể hiện sự kết hợp giữa tác nhân và đối tượng
+⚫ Được sử dụng để gửi thông điệp
+
+◆ Thông điệp (message)/ thông điệp có điều kiện:
+⚫ Vận chuyển thông tin đi từ một đối tượng này đến đối tượng
+
+khác.
+⚫ Kiểm tra thông điệp phải thỏa để được gửi đi.
+
+GV biên soạn: Trần Kim Hương
+
+113
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Ví dụ usecase “Giải quyết PIN không hợp lệ”:
+
+GV biên soạn: Trần Kim Hương
+
+114
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Ví dụ usecase “Rút tiền”:
+
+GV biên soạn: Trần Kim Hương
+
+115
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+◼ Ví dụ usecase “Thêm sách”:
+
+GV biên soạn: Trần Kim Hương
+
+116
+
+VD: Hiện thực hóa usecase “Đăng nhập”
+◼ Ví dụ usecase “Đăng nhập”:
+uc Use Case Model
+He thong ATM
+
+Dang Nhap
+
+«include»
+«include»
+
+Quan Tri HT
+Khoi dong HT
+
+«extend»
+Khach Hang
+Giao Dich
+
+Dong HT
+«extend»
+
+Van tin tai khoan
+
+GV biên soạn: Trần Kim Hương
+
+«extend»
+
+Rut tien
+
+«extend»
+
+Chuyen khoan
+
+117
+
+VD: Hiện thực hóa usecase “Đăng nhập”
+◼ Ví dụ activity usecase “Đăng nhập”:
+act Use Case Model
+begin
+
+Dua the ATM v ao
+
+«flow»
+
+Hien thi giao dien dang
+nhap
+
+uid,pwd
+Ho so khach hang
+nhap uid, pw d
+
+kiem tra uid, pw d
+
+hien thi mh giao dich
+
+tim k.hang
+tb sai yc nhap lai
+
+End
+
+GV biên soạn: Trần Kim Hương
+
+118
+
+VD: Hiện thực hóa usecase “Đăng nhập”
+◼ Ví dụ sequence của usecase “Đăng nhập”:
+sd Use Case Model
+
+Khach Hang
+
+GiaoDien ATM
+
+:Dang Nhap
+
+:Ho so Khach hang
+
+Đua the ATM()
+
+yc nhap username, pwd()
+
+loop
+
+Hien thi MH
+dang nhap()
+
+username, pwd()
+
+kiem tra uid, pwd(uid, pwd)
+
+tim khach hang(uid, pwd)
+
+thong tin k.hang()
+[uid,pwd k hop le]:khong tim
+thay()
+
+tb sai uid,pwd va yc nhap lai()
+
+tb dang nhap thanh cong()
+
+hien thi menu giao dien()
+
+GV biên soạn: Trần Kim Hương
+
+119
+
+VD: Hiện thực hóa usecase “Đăng nhập”
+◼ Ví dụ communication của usecase “Đăng nhập”:
+sd Use Case Model
+6.1: [uid,pwd hop le]:hien thi menu giao dich()
+
+5.1: [uid,pwd sai]:tb sai, nhap lai(uid, pwd)
+1: the ATM()
+
+6: [uid,pwd hop le]:tb tim thay()
+
+3.2: kiem tra uid,pwd()
+5: [ko hop le]:k tim thay(uid, pwd)
+Dang nhap
+
+3: nhap uid,pwd()
+
+Giao dien ATM
+
+Khach hang
+3.1: uid,pwd()
+2: hien thi mh dang nhap()
+
+4: tim thong tin k.h()
+
+4.1: ket qua tim k.hang()
+
+Ho so khach hang
+
+GV biên soạn: Trần Kim Hương
+
+120
+
+3.2.3 Hiện thực hóa = Collaboration Diagram
+
+BÀI TẬP
+
+GV biên soạn: Trần Kim Hương
+
+121
+
+Hướng dẫn thực hành
+◼
+
+Sử dụng phần mềm Enterprise Architect
+
+◼
+
+Quản lý mượn sách thư viện
+◆
+
+Vẽ Activity Diagram
+
+◆
+
+Vẽ Sequence Diagram
+
+◆
+
+Vẽ Communication Diagram
+
+GV biên soạn: Trần Kim Hương
+
+122
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+123
+
+
