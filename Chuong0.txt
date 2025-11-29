@@ -1,0 +1,134 @@
+Trường Đại học Đồng Tháp
+Khoa Công nghệ và Kỹ thuật
+
+PHÂN TÍCH & THIẾT KẾ
+HỆ THỐNG THÔNG TIN
+(Hướng đối tượng - UML)
+
+GV biên soạn: TRẦN KIM HƯƠNG
+Email: tkhuong@dthu.edu.vn
+
+GIỚI THIỆU MÔN HỌC
+◼ Thời lượng: 30 tiết
+◆ Lý thuyết: 30
+◆ Tự học: 60
+
+◼ Mục tiêu: cung cấp các kiến thức
+
+về
+
+◆ Các khái niệm cơ bản về HTTT, HĐT, UML
+◆ Các giai đoạn phân tích thiết kế HTTT
+
+◆ Mô hình hóa HTTT với UML
+◆ Công cụ sử dụng trong phân tích, thiết kế HTTT
+
+GV biên soạn: Trần Kim Hương
+
+2
+
+HÌNH THỨC ĐÁNH GIÁ
+◼ Điểm giữa kỳ: 50%
+◆ Chuyên cần
+◆ Bài tập tập trên lớp
+
+◆ Báo cáo nhóm
+
+◼ Điểm cuối kỳ: báo cáo nhóm 50%
+◆ Nhóm: 3sv / 1 nhóm:
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+HÌNH THỨC ĐÁNH GIÁ
+◼
+
+Nội dung Báo cáo
+◆ Đặc tả yêu cầu hệ thống
+◆ Báo cáo mô hình hóa hệ thống hệ thống
+⚫ Sơ đồ use-case
+⚫ Đặc tả usecase (vb)
+⚫ Sơ đồ hoạt động
+⚫ Sơ đồ tuần tự
+⚫ Sơ đồ cộng tác
+⚫ Sơ đồ lớp đối tượng
+◆ Thiết kế giao diện
+
+GV biên soạn: Trần Kim Hương
+
+5
+
+Yêu cầu đối với sinh viên
+◼ Tham dự lớp đầy đủ, đi học đúng giờ
+
+◼ Trật tự trong giờ học
+◼ Đọc trước bài giảng (cung cấp theo tiến độ)
+
+◼ Thảo luận nhóm bài tập trên lớp
+◼ Tham gia nhóm thực hiện đề tài
+
+cứu thêm về môn học trong các tài liệu
+tham khảo và từ nguồn internet
+
+◼ Nghiên
+
+GV biên soạn: Trần Kim Hương
+
+6
+
+NỘI DUNG MÔN HỌC
+1
+Bài 1: Tổng quan về HTTT
+
+2
+Bài 2: Tổng quan về Hướng đối tượng
+Bài 3: Tổng quan về UML
+
+3
+
+Bài 4: Xác định và phân tích yêu cầu
+
+4 Bài 5: Mô hình hóa hệ thống
+Bài 6: Xây dựng sơ đồ lớp đối tượng hệ thống
+GV biên soạn: Trần Kim Hương
+
+7
+
+TÀI LIỆU THAM KHẢO
+1.
+
+Giáo trình PT&TK HT HĐT sử dụng UML; TS. Phạm
+Nguyễn Cương, TS.Hồ Tường Vinh, ĐHKHTN
+TP.HCM
+
+2.
+
+Phân tích thiết kế HTTT; Học viện công nghệ bưu
+chính viễn thông
+
+3.
+
+Giáo trình Phân tích hệ thống HĐT; Phạm Thị Xuân
+Lộc, ĐH Cần Thơ
+
+4.
+
+Object-Oriented Analysis & Design – Understanding
+System Development with UML 2.0; Mike O’Docherty
+
+5.
+
+Nguồn internet
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+9
+
+

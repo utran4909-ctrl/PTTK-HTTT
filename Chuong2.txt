@@ -1,0 +1,489 @@
+CHƯƠNG 2
+
+TỔNG QUAN VỀ
+
+HƯỚNG ĐỐI TƯỢNG
+GV biên soạn: ThS. Trần Kim Hương
+
+NỘI DUNG
+
+1
+
+Các tính chất cơ bản của HĐT
+
+2
+
+Các khái niệm cơ bản của HĐT
+
+3
+
+Sức mạnh của HĐT
+
+GV biên soạn: Trần Kim Hương
+
+2
+
+GV biên soạn: Trần Kim Hương
+
+Inheritance
+
+Tính kế thừa
+
+Polymorphism
+
+Tính đa hình
+
+Encapsulation
+
+Tính đóng gói
+
+Abstraction
+
+Trừu tượng hóa
+
+1. Các tính chất cơ bản của HĐT
+Hướng Đối Tượng
+
+3
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+1. Các tính chất cơ bản của HĐT
+◼ Thế nào là trừu tượng hóa?
+
+Người bán hàng
+
+Khách hàng
+
+Sản phẩm
+→ Quản lý được độ phức tạp
+
+GV biên soạn: Trần Kim Hương
+
+5
+
+1. Các tính chất cơ bản của HĐT
+◼ Tính đóng gói (Encapsulation) là gì?
+◆ Che dấu cài đặt bên trong với clients
+⚫ Client phụ thuộc vào interface
+
+→ Tăng tính mềm dẻo
+
+GV biên soạn: Trần Kim Hương
+
+6
+
+1. Các tính chất cơ bản của HĐT
+◼
+
+Tính đa hình (Polymorphism) là gì?
+◆ Đa hình cho phép một phương thức có thể thực hiện khác
+
+nhau dựa trên loại đối tượng gọi nó. Điều này giúp linh
+hoạt trong xử lý các đối tượng khác nhau
+
+GV biên soạn: Trần Kim Hương
+
+7
+
+1. Các tính chất cơ bản của HĐT
+◼
+
+Tính kế thừa (Inheritance) là gì?
+◆ Mức độ trừu tượng hóa
+Tài sản
+
+Tăng mức độ
+trừu tượng
+
+BankAccount
+
+Tài khoản
+Tiết kiệm
+
+Giảm mức độ
+trừu tượng
+
+Tài khoản
+Thanh toán
+
+Chứng khoán
+
+Cổ phiếu
+
+Bất động sản
+
+Trái phiếu
+
+Các phần tử trên cùng một mức phải có cùng mức độ
+trừu tượng
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+2. Các khái niệm cơ bản của HĐT
+◼ Object
+◼ Class
+◼ Attribute
+◼ Operation
+
+◼ Relationships
+
+GV biên soạn: Trần Kim Hương
+
+9
+
+2.1 Các KN của HĐT - Object
+◼ Đối tượng (Object) là gì?
+◆ Một đối tượng là một khái niệm, sự trừu tượng,
+
+hoặc một vật với giới hạn rõ ràng và có ý nghĩa
+với một ứng dụng cụ thể.
+◆ Một đối tượng có:
+⚫ Trạng thái
+⚫ Hành vi
+⚫ Định danh
+
+GV biên soạn: Trần Kim Hương
+
+10
+
+2.1 Các KN của HĐT - Object
+◼
+
+Đối tượng (Object) là gì?
+◆ Một đối tượng được biểu diễn bởi một hình chữ nhật với
+
+tên được gạch dưới.
+:Professor
+
+ProfessorClark
+
+Chỉ có tên lớp
+Chỉ có tên đối tượng
+
+ProfessorClark:
+Professor
+
+ProfessorClark
+Tên lớp và tên đối tượng
+
+GV biên soạn: Trần Kim Hương
+
+11
+
+2.2 Các KN của HĐT - Class
+
+GV biên soạn: Trần Kim Hương
+
+12
+
+2.2 Các KN của HĐT - Class
+◼
+
+Class là gì?
+◆ Class là mô tả của một nhóm đối tượng có chung các thuộc
+
+tính, hành vi, các mối quan hệ và ngữ nghĩa.
+⚫ Một đối tượng là một thể hiện của class
+◆ Một class là sự trừu tượng mà trong đó:
+⚫ Nhấn mạnh các tính chất quan trọng
+⚫ Bỏ qua các tính chất khác
+
+→Nguyên tắc trừu tượng hóa
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+2.2 Các KN của HĐT - Class
+◼ VD Class
+
+Class
+Course
+
+Properties
+Tên
+Địa điểm
+Thời gian
+Số tín chỉ
+Giờ bắt đầu
+Giờ kết thúc
+
+GV biên soạn: Trần Kim Hương
+
+Behavior
+Thêm một sinh viên
+Hủy một sinh viên
+Lấy danh sách giáo sư
+Xác định hết chỗ chưa
+
+14
+
+2.2 Các KN của HĐT - Class
+◼ Biểu diễn Class
+◆ Một class biểu diễn bằng một hình chữ nhật gồm
+
+ba phần
+
+Professor
+
+ProfessorClark
+GV biên soạn: Trần Kim Hương
+
+15
+
+2.2 Các KN của HĐT - Class
+◼ Các phần trong một class
+◆ Một class bao gồm ba phần
+⚫ Phần đầu chứa tên class
+⚫ Phần thứ hai cho thấy cấu trúc của lớp
+
+(attributes)
+
+⚫ Phần thứ ba cho thấy các hành vi của lớp (operations)
+
+Professor
+
+Tên class
+Attributes
+Operations
+GV biên soạn: Trần Kim Hương
+
+Name
+empID
+Create()
+Save()
+Delete()
+Change()
+16
+
+2. Các khái niệm cơ bản của HĐT
+◼ Các lớp đối tượng
+◆ Bạn nhìn thấy bao nhiêu class?
+
+GV biên soạn: Trần Kim Hương
+
+17
+
+2. Các khái niệm cơ bản của HĐT
+◼
+
+Quan hệ giữa class và đối tượng
+◆ Một class là một định nghĩa trừu tượng của một đối tượng
+⚫ Nó định nghĩa cấu trúc và hành vi của mỗi đối tượng trong lớp
+⚫ Nó được dùng như khuôn mẫu để tạo đối tượng
+
+◆ Các đối tượng được nhóm thành các class
+
+Objects
+
+Professor
+
+Professor Mellon
+
+Professor Smith
+
+Professor Jones
+GV biên soạn: Trần Kim Hương
+
+18
+
+2.3 Các KN của HĐT - Attribute
+◼ Thuộc tính (Attribute) là gì?
+Object
+
+Class
+Attribute
+
+Attribute Value
+
+:CourseOffering
+CourseOffering
+number
+startTime
+endTime
+
+number = 101
+startTime = 900
+endTime = 1100
+:CourseOffering
+
+number = 104
+startTime = 1300
+endTime = 1500
+
+GV biên soạn: Trần Kim Hương
+
+19
+
+2.4 Các KN của HĐT - Operation
+◼ Hành vi (Operation) là gì?
+
+CourseOffering
+
+Class
+
+Operation
+
+GV biên soạn: Trần Kim Hương
+
+addStudent()
+deleteStudent()
+getStartTime()
+getEndTime()
+
+20
+
+2.7 Các KN của HĐT - Component
+◼
+
+Component là gì?
+◆ Là một thành phần của hệ thống hoạt động độc lâp và giữ
+
+một chức năng nhất định trong hệ thống
+◆ Một component có thể là:
+⚫ Một source code component
+⚫ Một run time component
+⚫ Một executable component
+
+Source File
+Name
+GV biên soạn: Trần Kim Hương
+
+<<EXE>>
+Executable
+Name
+
+Nguyên tắc OOP:
+đóng gói
+
+<<DLL>>
+Component
+Name
+25
+
+2.8 Các KN của HĐT - Package
+◼
+
+Package là gì?
+◆ Một package là một cơ chế để tổ chức các phần tử vào
+
+thành các nhóm
+◆ Một phần tử trong mô hình có thể chứa các phần tử khác
+
+Package Name
+
+Nguyên tắc OOP:
+Tính đơn thể
+
+◆ Dùng để:
+⚫ Tổ chức mô hình đang phát triển
+⚫ Một đơn vị trong quản trị cấu hình
+GV biên soạn: Trần Kim Hương
+
+26
+
+2.9 Các KN của HĐT - Subsystem
+◼ Subsystem là gì?
+◆ Subsystem
+
+là một phần của hệ thống lớn hơn, bao
+gồm nhiều package hoặc component liên quan, thực
+hiện một phần chức năng lớn của hệ thống.
+
+◆ Nó có thể coi như một hệ thống con độc lập trong hệ
+
+thống tổng thể.
+
+GV biên soạn: Trần Kim Hương
+
+27
+
+2.6 Các KN của HĐT - Relationships
+◼ Relationships
+◆ Association (kết hợp)
+⚫ Aggregation (thu nạp)
+⚫ Composition (cấu thành)
+
+◆ Dependency (phụ thuộc)
+◆ Generalization (tổng quát hóa)
+◆ Realization (hiện thực hóa)
+
+GV biên soạn: Trần Kim Hương
+
+28
+
+3. Sức mạnh của HĐT
+◼ Một mô hình chung
+
+◼ Có tính dễ dùng lại
+◼ Mô hình phản ánh chính xác thế giới thực
+◆ Mô tả chính xác hơn các tập dữ liệu và các xử lý
+
+◆ Được phân rã dựa trên các phân chia tự nhiên
+◆ Dễ hiểu và dễ bảo trì
+
+◼ Tính ổn định
+◆ Một thay đổi nhỏ trong yêu cầu không gây ra sự thay
+
+đổi lớn trong hệ thống đang phát triển
+GV biên soạn: Trần Kim Hương
+
+29
+
+3. Ví dụ hệ thống bán hàng
+
+GV biên soạn: Trần Kim Hương
+
+33
+
+3. VD Sơ đồ lớp hệ thống bán hàng
+
+GV biên soạn: Trần Kim Hương
+
+34
+
+3. Hiệu ứng của sự thay đổi yêu cầu
+
+GV biên soạn: Trần Kim Hương
+
+35
+
+Câu hỏi ôn tập
+1.
+
+Bốn tính chất cơ bản của OO là gì? Mô tả về mỗi
+tính chất
+
+2.
+
+Object là gì? Class là gì? Những điểm khác nhau
+giữa chúng?
+
+3.
+
+Attribute là gì?
+
+4.
+
+Operation là gì?
+
+5.
+
+Polymorphism là gì?
+
+GV biên soạn: Trần Kim Hương
+
+36
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+37
+
+

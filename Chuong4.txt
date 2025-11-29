@@ -1,0 +1,942 @@
+CHƯƠNG 4
+
+XÁC ĐỊNH YÊU CẦU
+
+HỆ THỐNG
+GV biên soạn: ThS. Trần Kim Hương
+
+NỘI DUNG
+1.
+
+Yêu cầu của tổ chức
+
+2.
+
+Khảo sát hiện trạng
+
+3.
+
+Phương pháp xác định yêu cầu
+
+4.
+
+Công cụ sử dụng mô tả hệ thống
+
+5.
+
+Hồ sơ khảo sát hiện trạng
+
+6.
+
+Phát biểu bài toán
+
+GV biên soạn: Trần Kim Hương
+
+2
+
+1. CÁC YÊU CẦU CỦA TỔ CHỨC
+❑
+
+Yêu cầu của hệ thống
+−
+
+Phải phù hợp với các chiến lược chung
+
+−
+
+Phải tạo ra những trợ giúp quyết định
+
+−
+
+Không gây ra những tác hại cho các tổ chức khác
+
+−
+
+Xứng đáng với sự đầu tư
+
+−
+
+Tiết kiệm tài nguyên và nhân lực
+
+−
+
+Phải trợ giúp quản lý điều hành
+
+−
+
+Phải cải thiện truyền thống thông tin
+
+−
+
+Thông tin phải có chất lượng, đầy đủ và kịp thời
+
+GV biên soạn: Trần Kim Hương
+
+3
+
+1. CÁC YÊU CẦU CỦA TỔ CHỨC
+❑
+
+❑
+
+Yêu cầu của người dùng:
+◆
+
+Dễ dàng truy xuất
+
+◆
+
+Phải có tính hệ thống
+
+◆
+
+Giao diện thân thiện
+
+Yêu cầu kỹ thuật:
+−
+
+Phải xử lý được khối lượng lớn thông tin
+
+−
+
+Xử lý phải chính xác
+
+−
+
+Giải quyết được những vấn đề phức tạp
+
+GV biên soạn: Trần Kim Hương
+
+4
+
+2. Khảo sát hiện trạng
+◼ Hiện trạng tổ chức
+◼ Hiện trạng nghiệp vụ
+
+◼ Hiện trạng Tin học (phần cứng, phần mềm,
+
+con người)
+
+GV biên soạn: Trần Kim Hương
+
+5
+
+2. Khảo sát hiện trạng
+◼ Hiện trạng tổ chức
+◆ Đối nội: →Cơ cấu tổ chức nội bộ
+⚫ Bản thân tổ chức là một hệ thống, có cơ cấu tổ chức
+⚫ Sơ đồ cơ cấu tổ chức nội bộ
+
+→Cách nhìn tổng thể về 1 tổ chức
+◆ Đối ngoại:
+⚫ Tổ chức  Môi trường của tổ chức
+
+GV biên soạn: Trần Kim Hương
+
+6
+
+2. Khảo sát hiện trạng
+◼
+
+Hiện trạng nghiệp vụ
+◆ Hiểu được quy trình nghiệp vụ: Mục tiêu quan trọng nhất của
+
+khảo sát hiện trạng
+◆ Có bao nhiêu nghiệp vụ, bao nhiêu quy trình?
+⚫
+
+Dưới góc nhìn của người làm quản lý, không phải của chuyên viên Tin học
+
+◆ Nghiệp vụ được thực hiện như thế nào?
+⚫
+
+Các công đoạn, bộ phận liên quan…
+
+◆ Tần suất? Thời điểm thực hiện
+
+Nghiệp vụ có thường xuyên được thực hiện hay không?
+⚫ Mỗi ngày, mỗi tuần, mỗi tháng…?
+⚫
+
+◆ Khối lượng tác vụ/quyết định?
+◆ Đánh giá nghiệp vụ hiện tại
+⚫
+
+Cần có những nhận xét của những người chuyên môn trong công tác hiện tại
+
+◆ Có vấn đề/khó khăn gì hiện tại hay không? Nguyên nhân?
+⚫
+
+Vấn đề/khó khăn độc lập với công nghệ, chỉ liên quan đến chuyên môn
+nghiệp vụ thì cần giải quyết ngay
+
+GV biên soạn: Trần Kim Hương
+
+7
+
+2. Khảo sát hiện trạng
+◼
+
+Hiện trạng Tin học
+◆ Phần cứng:
+⚫ Các thiết bị hiện tại,
+⚫ Số lượng,
+⚫ Cấu hình,
+⚫ Vị trí (vật lý),
+
+⚫ Tình hình kết nối mạng,
+⚫ Loại kết nối…
+
+◆ Phần mềm:
+⚫ Hệ điều hành
+⚫ Hệ quản trị CSDL
+⚫ Các phần mềm tiện ích khác
+
+◆ Con người:
+⚫ Trình độ chuyên môn Tin học
+
+GV biên soạn: Trần Kim Hương
+
+8
+
+3. Xác định và thu thập yêu cầu
+◼ Phân loại yêu cầu:
+◆ Yêu cầu chức năng
+◆ Yêu cầu phi chức năng
+
+◼ Phương pháp xác định yêu cầu
+◆ Phỏng vấn
+◆ Lập bảng câu hỏi
+◆ Nghiên cứu tài liệu
+◆ Quan sát hiện trường
+
+GV biên soạn: Trần Kim Hương
+
+9
+
+Phỏng vấn
+Phân tích viên
+
+Đơn vị
+
+Lên kế hoạch phỏng vấn
+
+Xác nhận kế hoạch phỏng
+vấn
+
+Chuẩn bị chủ đề, câu hỏi, nhân
+sự tham gia phỏng vấn
+
+Xắp xếp nhân sự tham gia
+phỏng vấn
+
+Gởi chủ đề phỏng vấn
+Đặt câu hỏi
+
+Trả lời
+
+Ghi nhận
+Kiểm tra và đánh giá kết quả
+
+Bổ sung hoặc xác nhận kết
+quả
+
+Tìm kiếm các quan điểm khác
+GV biên soạn: Trần Kim Hương
+
+10
+
+Phỏng vấn
+◼ Đối tượng phỏng vấn:
+◆ Cá nhân
+◆ Bộ phận/tổ
+
+◼ Phương thức phỏng vấn:
+◆ Tự do: hỏi đâu trả lời đó
+◆ Có hướng dẫn: hướng người được phỏng vấn theo
+
+mục tiêu chính
+
+GV biên soạn: Trần Kim Hương
+
+11
+
+Phỏng vấn – Các loại câu hỏi
+◼ Câu hỏi mở:
+◆ Có phạm vi trả lời tự do, kết quả không tuân theo một
+
+vài tình huống cố định
+◼ Câu hỏi đóng:
+◆ Là câu hỏi mà sự trả lời là việc chọn lựa một hoặc
+
+nhiều trong những tình huống xác định trước
+
+GV biên soạn: Trần Kim Hương
+
+12
+
+Phỏng vấn
+Câu hỏi mở
+Ưu điểm
+- Không ràng buộc kết quả trả lời
+- Có thể phát sinh ý tưởng mới
+Khuyết điểm
+- Thời gian dễ kéo dài
+- Khó tóm tắt nội dung
+- Nội dung trả lời có thể vượt phạm
+vi câu hỏi
+
+Câu hỏi đóng
+
+-
+
+Thời gian trả lời ngắn
+Nội dung trả lời tập trung, chi tiết,
+giúp khai thác tốt.
+
+-
+
+Mất nhiều thời gian chuẩn bị câu
+hỏi
+Thông tin hữu ích nhiều khi không
+nằm trong danh sách các câu trả
+lời có sẵn
+Không mở rộng được kết quả trả
+lời
+
+-
+
+-
+
+GV biên soạn: Trần Kim Hương
+
+13
+
+Trước khi phỏng vấn
+◼
+
+Chuẩn bị danh sách các chủ đề chính muốn hỏi.
+
+◼
+
+Danh sách những cá nhân, bộ phận sẽ phỏng vấn
+◆
+
+Những người có trách nhiệm
+
+◆
+
+Những người hiểu biết về lĩnh vực cần quan tâm.
+
+=> Thông qua lãnh đạo để chọn người được phỏng vấn.
+◼
+
+Liên hệ trực tiếp với người sẽ được phỏng vấn (hoặc
+thông qua thư ký của người đó) để lên lịch làm việc
+◆
+
+Thời gian
+
+◆
+
+Địa điểm
+
+◆
+
+Báo trước mục đích phỏng vấn.
+
+GV biên soạn: Trần Kim Hương
+
+14
+
+Trong khi phỏng vấn
+◼ Tự giới thiệu về mình và nhiệm vụ của mình, mục tiêu của dự án
+◼ Kiểm chứng lại đối tượng phỏng vấn
+◼ Thái độ: tạo sự tin tưởng, tạo không khí thoải mái, thân thiện
+◼ Chăm chú lắng nghe, ghi nhận, không nên cho nhận xét.
+◼ Biết cách hướng dẫn, điều hành cuộc phỏng vấn để tránh lan man
+
+=> Làm chủ cuộc phỏng vấn.
+◼ Những câu hỏi thường dùng trong lúc phỏng vấn: Cái gì? Bao giờ?
+
+Cách nào có?...
+◼ Dùng ngôn ngữ nghiệp vụ, tránh dùng ngôn ngữ tin học
+◼ Thông tin thu nhận phải định lượng rõ ràng, tránh những thông tin
+
+định tính, chung chung, không rõ ràng, mơ hồ.
+◼ Nên có câu hỏi về đánh giá (lời khuyên) đối với qui trình nghiệp vụ.
+GV biên soạn: Trần Kim Hương
+
+15
+
+Kết thúc phỏng vấn
+◼
+
+Tóm tắt những điểm chính => nhằm có sự xác nhận
+chính xác.
+
+◼
+
+Kiểm tra, hệ thống hóa nội dung thu thập.
+
+◼
+
+Lập biên bản phỏng vấn.
+
+◼
+
+Chuẩn bị cho một sự hợp tác tiếp theo, để lại một lối thoát
+mở cho cả hai bên.
+
+◼
+
+Không nên tạo một cuộc đối thoại quá dài hoặc chuẩn bị
+quá nhiều câu hỏi để hỏi.
+
+GV biên soạn: Trần Kim Hương
+
+16
+
+Phỏng vấn
+Mẫu kế hoạch phỏng vấn
+Kế hoạch phỏng vấn tổng quan
+Hệ thống:………………….
+Người lập:…………………
+
+STT
+
+Chủ đề
+
+GV biên soạn: Trần Kim Hương
+
+Ngày lập:../../….
+
+Yêu cầu
+
+Ngày bắt đầu
+
+Ngày kết thúc
+
+17
+
+Phỏng vấn
+Ví dụ:
+Kế hoạch phỏng vấn tổng quan
+Hệ thống: Đại lý băng đĩa ABC...
+Người lập: Nguyễn Hải Nam
+
+Ngày lập: 01/09/2008
+
+STT
+
+Chủ đề
+
+Yêu cầu
+
+Ngày bắt đầu
+
+Ngày kết
+thúc
+
+1
+
+Qui trình bán băng đĩa
+
+Nắm rõ tất qui trình về bán lẻ,
+bán sỉ, và qui trình xử lý đơn
+đặt hàng
+
+02/09/2008
+
+02/09/2008
+
+2
+
+Qui trình đặt mua
+băng đĩa
+
+Nắm qui trình khách hàng đặt
+mua băng đĩa với đại lý
+
+03/09/2008
+
+03/09/2008
+
+3
+
+Quản lý nhập xuất tồn
+kho
+
+05/09/2008
+
+05/09/2008
+
+4
+
+Hệ thống máy móc,
+phần mềm
+
+10/09/2008
+
+10/09/2008
+
+GV biên soạn: Trần Kim Hương
+
+Tìm hiểu kỹ về tài nguyên
+máy móc, trang thiết bị, phần
+mềm, hệ điều hành đang sử
+dụng của tổ chức
+
+18
+
+Phỏng vấn
+Bảng kế hoạch phỏng vấn
+Hệ thống:………………………
+Người được phỏng vấn:…………….
+
+Phân tích viên:……………..
+
+Vị trí/ phương tiện
+Văn phòng, phòng họp, điện thoại,…
+
+Thời gian: - Bắt đầu:
+- Kết thúc:
+
+Mục tiêu:
+Dữ liệu cần thu thập?
+Lãnh vực nào?
+
+Lưu ý: - Kinh nghiệm
+- Ý kiến đánh giá, nhận xét của người được
+phỏng vấn
+
+Chi tiết buổi phỏng vấn
+Giới thiệu
+Tổng quan về hệ thống
+Tổng quan về buổi phỏng vấn
+Chủ đề 1
+Các câu hỏi
+Chủ đề 2
+Các câu hỏi
+...
+Tóm tắt các điểm chính
+Câu hỏi của người trả lời phỏng vấn
+Kết thúc
+
+Thời gian ước lượng (? phút)
+Tổng:
+
+Quan sát tổng quan
+Phát sinh ngoài dự kiến
+GV biên soạn: Trần Kim Hương
+
+19
+
+Phỏng vấn
+Bảng câu hỏi và ghi nhận trả lời
+Người được phỏng vấn: Hoàng Oanh…
+
+Ngày: 03/09/2008
+
+Câu hỏi
+
+Ghi nhận
+
+Câu hỏi 1:
+Khách hàng đặt hàng dưới hình thức nào?
+
+Trả lời:
+Gọi điện thoại, đến tận đại lý, gởi fax
+Kết quả quan sát:
+Đáng tin cậy
+
+Câu hỏi 2:
+Tất cả đơn đặt hàng của khách hàng phải
+được thanh toán trước rồi mới giao hàng?
+
+Trả lời:
+Phải thanh toán trước hoặc ngay khi giao.
+Kết quả quan sát:
+Thái độ không chắc chắn
+
+Câu hỏi 3:
+Chị muốn hệ thống mới sẽ giúp cho Chị
+điều gì?
+
+Trả lời
+Dữ liệu chỉ nhập một lần và hệ thống tự
+động phát sinh báo cáo các loại
+Kết quả quan sát
+Không tin tưởng lắm, hình như đã triển
+khai thất bại một lần
+
+GV biên soạn: Trần Kim Hương
+
+20
+
+Lập bảng câu hỏi
+◼
+
+Phân loại câu hỏi thành nhóm
+
+◼
+
+Phân loại đối tượng thành nhóm, theo những phương
+pháp sau:
+◆ Đối tượng chủ đạo, tích cực
+
+◆ Ngẫu nhiên
+
+chủ định: thỏa tiêu chuẩn (có kinh nghiệm trên 2
+năm, thường xuyên sử dụng hệ thống,…)
+
+◆ Theo
+
+◆ Chọn theo loại : người dùng, quản lý,…
+
+GV biên soạn: Trần Kim Hương
+
+21
+
+Lập bảng câu hỏi – Yêu cầu
+Trình bày mục đích của việc điều tra
+◼ Nêu rõ mục đích những câu hỏi.
+◼ Hướng dẫn điền những câu trả lời.
+◼ Thời hạn gởi lại bảng câu hỏi đã trả lời.
+◼ Câu hỏi phải cụ thể, rõ ràng, dễ lựa chọn phương án trả lời.
+◼ Hình thức bảng câu hỏi phải tiện dụng cho chuyên viên sau này.
+◼ Nếu cần quản lý việc điều tra bằng máy tính thì mẫu câu hỏi phải
+có hình thức hợp lý để dễ dàng nạp vào máy tính.
+◼ Chừa đủ chỗ để trả lời
+◼ Có chỗ để nhận xét
+◼ Có phần nhận xét chung/yêu cầu gì.
+◼ Trong bảng câu hỏi cần ghi rõ họ tên/ký tên xác nhận trách nhiệm
+thông tin của người trả lời để tiện việc liên lạc, trao đổi.
+◼
+
+GV biên soạn: Trần Kim Hương
+
+22
+
+Lập bảng câu hỏi
+So sánh phỏng vấn - bảng câu hỏi
+Đặc điểm
+
+Phỏng vấn
+
+Bảng câu hỏi
+
+Sự phong phú thông tin Cao (qua nhiều kênh: trả lời,
+quan sát, cử chỉ, thái độ…)
+
+Trung bình tới thấp (chỉ trả
+lời)
+
+Thời gian
+
+Có thể kéo dài
+
+Thấp, vừa phải
+
+Chi phí
+
+Có thể cao
+
+Vừa phải
+
+Cơ hội nắm bắt và phát Tốt: việc phát hiện và chọn lọc
+hiện
+các câu hỏi có thể được đặt ra
+bởi hoặc người phỏng vấn hoặc
+người được phỏng vấn
+
+Hạn chế: sau khi thu thập
+dữ liệu cơ sở
+
+Tính bảo mật
+
+Mọi người biết lẫn nhau
+
+Không biết người trả lời
+
+Vai trò tham gia
+
+Người được phỏng vấn đóng
+Trả lời thụ động, không
+một vai trò quan trọng và có thể chắc chắn quyết định kết
+quyết định kết quả
+quả
+
+GV biên soạn: Trần Kim Hương
+
+23
+
+Nghiên cứu tài liệu
+Tài
+liệu
+hoàn chỉnh
+
+Tài liệu
+
+Tài
+liệu
+làm tiếp
+
+Tài liệu giao dịch: chứng từ, thư từ, thông
+báo,…
+Tài liệu lưu: sổ sách, tập tin, báo cáo,…
+Tài liệu tổng hợp: báo cáo, thống kê, kế
+hoạch
+Tài liệu tổ chức, chính sách: cấu trúc tổ
+chức, mô tả công việc, qui trình, thủ tục, các
+quy định nội bộ, chủ trương, chính sách, các
+quy định bất thành văn…
+
+Tài liệu bổ sung: bảng hỏi, phiếu thu
+thập,…
+Tài liệu nghiên cứu: báo cáo nghiên
+cứu,…
+Tài liệu chuẩn bị: cuộc họp, máy tính,…
+
+=> Hỗ trợ phát hiện những điểm thiếu chính xác, thiếu chặt chẽ của hệ thống
+GV biên soạn: Trần Kim Hương
+
+24
+
+Nghiên cứu tài liệu
+◼
+
+Các thông tin mang lại từ nghiên cứu tài liệu
+◆ Các vấn đề tồn tại trong hệ thống (thiếu thông tin, các bước
+
+dư thừa)
+◆ Các cơ hội để tiếp cận nhu cầu mới (ví dụ: phân tích được
+
+doanh thu, thói quen khách hàng,…)
+◆ Phương hướng tổ chức có thể tác động đến các yêu cầu
+
+của HTTT
+◆ Lý do tồn tại của hệ thống hiện hành
+◆ Tìm ra tên và vị trí của những cá nhân có liên quan đến hệ
+
+thống. Giúp cho việc giao tiếp liên lạc đúng mục tiêu hơn
+◆ Dữ liệu cấu trúc, qui tắc xử lý dữ liệu
+◆ Tìm hiểu về thiết kế hệ thống cũ.
+
+GV biên soạn: Trần Kim Hương
+
+25
+
+Nghiên cứu tài liệu
+◼ Hạn chế:
+◆ Các tài liệu tiềm ẩn nguồn thông tin không đúng,
+
+trùng lắp
+◆ Thiếu tài liệu
+◆ Tài liệu hết hạn
+
+GV biên soạn: Trần Kim Hương
+
+26
+
+Quan sát hiện trường
+◼
+
+Quan sát trực tiếp tại nơi làm việc, hiện trường xem xét
+quy trình làm việc thực tế của tổ chức
+
+◼
+
+Theo dõi việc luân chuyển thông tin trong tổ chức.
+
+◼
+
+Tham gia trực tiếp vào một bước hay cả quy trình nghiệp
+vụ => ghi nhận, nắm bắt những thông tin cần thiết.
+Phương pháp này bổ sung thêm những kết quả khảo
+sát của những phương pháp khác, góp phần củng cố
+thêm những dự đoán của người phân tích hệ thống
+
+GV biên soạn: Trần Kim Hương
+
+27
+
+So sánh phương pháp quan sát hiện trường và nghiên cứu tài liệu
+Các yếu tố
+
+Quan sát hiện trường
+
+Nghiên cứu tài liệu
+
+Tính đa dạng thông tin
+
+Cao (nhiều kênh thông tin)
+
+Thấp (bị động) và lạc hậu
+
+Thời gian yêu cầu
+
+Có thể lớn
+
+Ngắn hoặc vừa
+
+Chi phí
+
+Có thể cao
+
+Thấp hoặc vừa
+
+Điều kiện duy trì và
+phát triển
+
+Tốt
+
+Giới hạn: Chỉ có thể thu thập
+được thông tin khi tác giả của tài
+liệu gốc sẵn sàng cung cấp
+
+Sự tin cậy
+
+Người phỏng vấn bị theo dõi, có
+thể làm thay đổi cách cử xử của
+người bị theo dõi
+
+Phụ thuộc tính chất của tài liệu,
+không đơn giản để thay đổi.
+
+Đối tượng liên quan
+
+Những người được phỏng vấn có Không có, sự chuyển giao không
+thể hoặc không thể liên quan và
+rõ ràng
+mức độ tận tâm tuỳ thuộc vào liệu
+họ có biết đang bị theo dõi hay
+không.
+
+Vấn đề quan trọng
+
+Giới hạn số lượng và giới hạn số
+lần (chụp màn hình)
+
+GV biên soạn: Trần Kim Hương
+
+Tính tiềm năng phụ thuộc vào tài
+liệu nào được cập nhật hoặc bởi
+vì tài liệu được tạo ra không cho
+mục đích này.
+28
+
+4. Công cụ sử dụng mô tả hệ thống
+◼ Văn bản: sử dụng trong trường hợp bản chất vấn
+
+đề đơn giản
+◼ Cây quyết định: nếu tổ hợp tình huống quá nhiều
+◼ Bảng
+
+quyết định: nếu tổ hợp tình huống không
+
+nhiều
+◆ Bảng quyết định theo điều kiện
+◆ Bảng quyết định theo chỉ tiêu
+
+◼ Lưu đồ
+
+GV biên soạn: Trần Kim Hương
+
+29
+
+5. Hồ sơ khảo sát hiện trạng
+−
+
+Phải được viết một cách khoa học
+
+−
+
+Mỗi báo cáo phải nêu: tên dự án, tác giả, địa chỉ, lần tiếp
+xúc thứ mấy.
+
+−
+
+Mục lục với những mục chính:
+
+−
+
+▪
+
+Các mục tiêu của tổ chức
+
+▪
+
+Mối liên hệ nội tại giữa các thành phần trong tổ chức
+
+▪
+
+Các chi tiết của hệ thống hiện tại
+
+▪
+
+Các vật chứng (thông tư, quyết định, biểu bảng)
+
+Đánh giá hệ thống hiện tại về:
+▪
+
+Cấu trúc các thành phần, xử lý, hiệu quả hoạt động
+
+▪
+
+Đề xuất hệ thống tương lai, dự đoán về chi phí và lợi nhuận
+
+▪
+
+Các khuyến cáo, khung thời gian, kế hoạch thực hiện.
+
+GV biên soạn: Trần Kim Hương
+
+30
+
+Hồ sơ khảo sát hiện trạng
+❑ Phần kết luận của việc xác định yêu cầu:
+▪
+
+Các vật chứng cho hệ thống hiện tại có phù hợp không?
+
+▪
+
+Người dùng đã xem lại và đồng ý với những quan điểm nào?
+
+▪
+
+Những người dùng đã được hỏi ý kiến và phân tích viên đã
+ghi địa chỉ liên hệ chính xác chưa?
+
+▪
+
+Tất cả các báo cáo đã được nghiên cứu triệt để chưa?
+
+▪
+
+Những yêu cầu, chức năng nào cần được nghiên cứu sau?
+
+▪
+
+Tất cả các yêu cầu đã được xem lại chưa?
+
+▪
+
+Những giải pháp thiết kế thay thế là những giải pháp nào?
+
+▪
+
+Những thay đổi có thể có của đề án là gì?
+
+GV biên soạn: Trần Kim Hương
+
+31
+
+Câu hỏi thảo luận
+
+GV biên soạn: Trần Kim Hương
+
+32
+
+

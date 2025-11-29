@@ -1,0 +1,925 @@
+PHẦN 1. GIỚI THIỆU
+1.1. Lý do chọn đề tài
+Trong bối cảnh nền kinh tế số phát triển mạnh mẽ như hiện nay, nhu cầu sử dụng các
+thiết bị điện tử như điện thoại di động, máy tính xách tay, máy tính bảng, phụ kiện điện
+tử... ngày càng tăng cao. Thị trường kinh doanh hàng điện tử trở nên sôi động với sự cạnh
+tranh gay gắt giữa các cửa hàng, đại lý và trung tâm phân phối. Việc quản lý hoạt động
+mua bán hàng điện tử một cách hiệu quả trở thành yếu tố then chốt quyết định sự thành
+công của doanh nghiệp.
+Tuy nhiên, thực tế cho thấy nhiều cửa hàng kinh doanh hàng điện tử vẫn còn sử dụng
+phương pháp quản lý thủ công hoặc các công cụ đơn giản như sổ sách, bảng tính Excel.
+Điều này dẫn đến một số vấn đề như:
+Khó khăn trong quản lý hàng tồn kho: Việc theo dõi số lượng hàng nhập, hàng xuất,
+hàng tồn bằng phương pháp thủ công dễ dẫn đến sai sót, không cập nhật kịp thời, gây tình
+trạng thiếu hàng hoặc tồn kho quá nhiều.
+Quản lý thông tin khách hàng chưa hiệu quả: Thông tin khách hàng được lưu trữ rời
+rạc, khó tra cứu lịch sử mua hàng, không hỗ trợ tốt cho công tác chăm sóc khách hàng và
+bảo hành sản phẩm.
+Quy trình bảo hành phức tạp: Hàng điện tử thường có chính sách bảo hành, việc theo
+dõi thời hạn bảo hành, lịch sử sửa chữa bằng phương pháp thủ công gây mất thời gian và
+dễ xảy ra nhầm lẫn.
+Khó khăn trong việc thống kê, báo cáo: Việc tổng hợp doanh thu, lợi nhuận, các mặt
+hàng bán chạy... đòi hỏi nhiều thời gian và công sức khi thực hiện thủ công.
+Rủi ro mất mát dữ liệu: Dữ liệu lưu trữ trên giấy tờ hoặc file Excel cá nhân có nguy
+cơ bị mất, hỏng, khó khôi phục.
+Xuất phát từ những vấn đề thực tiễn trên, việc xây dựng một Hệ thống thông tin quản
+lý mua bán hàng điện tử là cần thiết nhằm:
+Tin học hóa các quy trình nghiệp vụ: nhập hàng, bán hàng, bảo hành.
+Quản lý thông tin sản phẩm, khách hàng, nhà cung cấp một cách tập trung và có hệ
+thống.
+
+Hỗ trợ tra cứu nhanh chóng, chính xác.
+Tự động hóa việc lập báo cáo thống kê, hỗ trợ ra quyết định kinh doanh.
+Nâng cao hiệu quả hoạt động và khả năng cạnh tranh của cửa hàng.
+Ngoài ra, đề tài "Hệ thống thông tin quản lý mua bán hàng điện tử" còn phù hợp với
+nội dung môn học Phân tích và Thiết kế Hệ thống thông tin, giúp sinh viên vận dụng các
+kiến thức về phân tích yêu cầu, mô hình hóa hệ thống bằng UML, và thiết kế hệ thống
+hướng đối tượng vào một bài toán thực tế.
+1.2. Mục tiêu đề tài
+1.2.1. Mục tiêu tổng quát
+Xây dựng và phát triển Hệ thống thông tin quản lý mua bán hàng điện tử nhằm tin
+học hóa các hoạt động nghiệp vụ của cửa hàng kinh doanh hàng điện tử, bao gồm: quản lý
+nhập hàng, bán hàng, bảo hành sản phẩm, quản lý khách hàng và nhà cung cấp. Hệ thống
+hướng đến việc nâng cao hiệu quả quản lý, giảm thiểu sai sót, tiết kiệm thời gian và hỗ trợ
+công tác ra quyết định kinh doanh.
+1.2.2. Mục tiêu cụ thể
+a) Về mặt nghiệp vụ:
+Phân tích và mô tả chi tiết các quy trình nghiệp vụ hiện tại của cửa hàng kinh doanh
+hàng điện tử.
+Xác định các vấn đề, hạn chế trong quy trình quản lý hiện tại.
+Đề xuất giải pháp hệ thống thông tin phù hợp để khắc phục các hạn chế đó.
+b) Về mặt phân tích và thiết kế hệ thống:
+Xác định và đặc tả các yêu cầu chức năng và phi chức năng của hệ thống.
+Xây dựng sơ đồ Use-case mô tả các chức năng chính của hệ thống và sự tương tác
+giữa các tác nhân với hệ thống.
+Xây dựng sơ đồ hoạt động (Activity Diagram) mô tả luồng xử lý của các nghiệp vụ
+chính.
+Xây dựng sơ đồ tuần tự (Sequence Diagram) mô tả trình tự trao đổi thông điệp giữa
+các đối tượng.
+
+Xây dựng sơ đồ lớp (Class Diagram) mô tả cấu trúc tĩnh của hệ thống với các lớp đối
+tượng và mối quan hệ giữa chúng.
+c) Về mặt chức năng hệ thống:
+STT
+
+Tên Chức năng
+
+Mô tả chi tiết
+
+1
+
+Quản lý sản
+phẩm
+
+Thêm mới, cập nhật (sửa), xóa và tìm kiếm thông tin
+chi tiết về các sản phẩm điện tử (thông số, giá, hình
+ảnh).
+
+2
+
+Quản lý nhập
+hàng
+
+Lập phiếu nhập kho, theo dõi quá trình và lịch sử
+nhập hàng từ các nhà cung cấp về kho.
+
+3
+
+Quản lý bán hàng
+
+Thực hiện quy trình bán lẻ: Lập hóa đơn, tính toán
+tổng tiền, chiết khấu và in hóa đơn cho khách.
+
+4
+
+Quản lý bảo hành
+
+Theo dõi thời hạn bảo hành theo IMEI/Serial, tiếp
+nhận và xử lý các yêu cầu bảo hành từ khách hàng.
+
+5
+
+Quản lý khách
+hàng
+
+Lưu trữ cơ sở dữ liệu khách hàng, tích điểm và theo
+dõi lịch sử mua hàng để chăm sóc khách hàng.
+
+6
+
+Quản lý nhà cung
+cấp
+
+Quản lý danh sách và thông tin liên hệ của các đối
+tác/nhà cung cấp nguồn hàng.
+
+7
+
+Thống kê, báo
+cáo
+
+Tổng hợp số liệu về doanh thu theo ngày/tháng/năm,
+báo cáo hàng tồn kho và danh sách sản phẩm bán
+chạy.
+
+d) Về mặt học tập:
+Vận dụng kiến thức môn học Phân tích và Thiết kế Hệ thống thông tin vào thực tiễn.
+Rèn luyện kỹ năng phân tích yêu cầu, mô hình hóa hệ thống bằng ngôn ngữ UML.
+Sử dụng thành thạo các công cụ vẽ sơ đồ UML như StarUML, Draw.io hoặc
+Enterprise Architect.
+Phát triển kỹ năng làm việc nhóm và trình bày báo cáo.
+1.3. Phạm vi đề tài
+1.3.1. Đối tượng nghiên cứu
+
+Các hoạt động nghiệp vụ trong cửa hàng kinh doanh mua bán hàng điện tử, bao gồm:
+nhập hàng, bán hàng, bảo hành, quản lý kho, quản lý khách hàng và nhà cung cấp.
+Các quy trình xử lý thông tin liên quan đến hoạt động kinh doanh hàng điện tử.
+Các đối tượng tham gia vào hệ thống: nhân viên bán hàng, thủ kho, nhân viên kỹ thuật
+(bảo hành), quản lý cửa hàng, khách hàng.
+1.3.2. Phạm vi nghiên cứu
+Đề tài tập trung nghiên cứu và phân tích thiết kế hệ thống thông tin cho một cửa hàng
+kinh doanh hàng điện tử quy mô vừa và nhỏ, với các đặc điểm:
+Kinh doanh các sản phẩm điện tử phổ biến: điện thoại di động, máy tính xách tay,
+máy tính bảng, phụ kiện điện tử (tai nghe, sạc, ốp lưng...).
+Có các bộ phận: bán hàng, kho, kỹ thuật bảo hành, quản lý.
+Bán hàng trực tiếp tại cửa hàng (chưa bao gồm bán hàng online).
+1.3.3. Phạm vi chức năng hệ thống
+a) Các chức năng TRONG phạm vi đề tài:
+Thêm, sửa, xóa, tìm kiếm sản phẩm.
+1
+
+2
+
+Quản lý sản
+phẩm
+
+Quản lý nhập
+hàng
+
+Quản lý danh mục sản phẩm (Category).
+Quản lý thông tin chi tiết: Tên, giá nhập/bán, số lượng, hãng
+sản xuất, thông số kỹ thuật.
+Lập phiếu nhập hàng mới.
+Tự động cập nhật số lượng tồn kho khi nhập.
+Theo dõi và tra cứu lịch sử các đợt nhập hàng.
+Tìm kiếm sản phẩm nhanh (barcode/tên).
+
+3
+
+Quản lý bán
+hàng
+
+Lập hóa đơn bán hàng.
+Tính tổng tiền, áp dụng mã giảm giá/khuyến mãi (nếu có).
+In hóa đơn cho khách.
+
+Tiếp nhận yêu cầu bảo hành từ khách.
+Quản lý bảo
+hành
+
+4
+
+Tra cứu thông tin bảo hành (theo Serial/IMEI hoặc SĐT
+khách).
+Cập nhật trạng thái xử lý (đang sửa, đã xong...).
+Trả hàng bảo hành cho khách.
+
+Quản lý
+khách hàng
+
+5
+
+6
+
+Quản lý nhà
+cung cấp
+
+7
+
+Quản lý nhân
+viên
+
+Thêm mới, cập nhật hoặc xóa thông tin khách hàng.
+Tra cứu lịch sử mua hàng để hỗ trợ chăm sóc/hậu mãi.
+Quản lý thông tin đối tác (Thêm/Sửa/Xóa).
+Theo dõi công nợ hoặc lịch sử các đơn nhập từ từng nhà cung
+cấp.
+Quản lý hồ sơ nhân viên.
+Phân quyền: Cấp quyền truy cập các chức năng tương ứng
+(VD: Nhân viên bán hàng không được sửa kho).
+Báo cáo doanh thu chi tiết (theo ngày/tháng/năm).
+
+Thống kê,
+báo cáo
+
+8
+
+Báo cáo tình trạng tồn kho (cảnh báo hàng sắp hết).
+Thống kê Top sản phẩm bán chạy/doanh số cao.
+
+1.3.4. Phạm vi về mặt phân tích thiết kế
+Trong khuôn khổ môn học Phân tích và Thiết kế Hệ thống thông tin, đề tài thực hiện
+các nội dung sau:
+STT
+
+Nội dung
+thực hiện
+
+1
+
+Khảo sát
+hiện trạng
+
+Sản phẩm bàn giao (Deliverables)
+Sơ đồ cơ cấu tổ chức của đơn vị.
+Tài liệu mô tả quy trình nghiệp vụ hiện tại.
+
+STT
+
+Nội dung
+thực hiện
+
+Sản phẩm bàn giao (Deliverables)
+Báo cáo đánh giá hiện trạng tin học/hạ tầng.
+Bảng danh sách đặc tả yêu cầu chức năng (Functional).
+
+2
+
+Phân tích
+yêu cầu
+
+Bảng danh sách yêu cầu phi chức năng (Non-functional:
+bảo mật, hiệu năng...).
+Sơ đồ Use-case (Tổng quát & Chi tiết).
+
+3
+
+Mô hình hóa
+Use-case
+
+Tài liệu đặc tả Use-case (Mô tả kịch bản chính/phụ, điều
+kiện tiên quyết...).
+
+4
+
+Mô hình hóa
+hành vi
+
+Sơ đồ hoạt động (Activity Diagram): Mô tả luồng đi của
+nghiệp vụ.
+Sơ đồ tuần tự (Sequence Diagram): Mô tả tương tác giữa
+các đối tượng theo thời gian.
+
+5
+
+Mô hình hóa
+cấu trúc
+
+Sơ đồ lớp (Class Diagram): Mô tả cấu trúc dữ liệu và mối
+quan hệ giữa các lớp đối tượng trong hệ thống.
+
+PHẦN 2. KHẢO SÁT HIỆN TRẠNG
+2.1. Sơ đồ cơ cấu tổ chức
+2.1.1. Giới thiệu cửa hàng
+Cửa hàng điện tử TECHMART là cửa hàng chuyên kinh doanh các sản phẩm điện tử
+bao gồm: điện thoại di động, máy tính xách tay, máy tính bảng và các loại phụ kiện điện
+tử (tai nghe, sạc, ốp lưng, cáp kết nối...).
+Cửa hàng có địa chỉ tại 123 Nguyễn Văn A, Phường B, Quận C, TP. Hồ Chí Minh.
+Thời gian hoạt động từ 8:00 đến 21:00 hàng ngày. Đây là cửa hàng quy mô vừa và nhỏ với
+khoảng 10-15 nhân viên, phục vụ khách hàng mua sắm trực tiếp tại cửa hàng.
+2.1.2. Sơ đồ cơ cấu tổ chức
+
+2.1.3. Mô tả chức năng các bộ phận
+a) Giám đốc (Chủ cửa hàng)
+Giám đốc là người điều hành và quản lý toàn bộ hoạt động của cửa hàng. Nhiệm vụ
+chính bao gồm: hoạch định chiến lược kinh doanh, đặt mục tiêu doanh số; quyết định nhập
+hàng và chọn nhà cung cấp; quản lý nhân sự, phân công công việc; xem xét báo cáo doanh
+thu, tồn kho; xử lý các vấn đề phát sinh và khiếu nại lớn từ khách hàng; quản lý tài chính,
+thu chi của cửa hàng.
+b) Bộ phận Bán hàng
+Bộ phận Bán hàng gồm 3-4 nhân viên, trực tiếp tư vấn và bán sản phẩm cho khách
+hàng. Nhiệm vụ chính bao gồm: tiếp đón và tư vấn sản phẩm cho khách hàng; giới thiệu
+tính năng, so sánh các sản phẩm; lập hóa đơn bán hàng và thu tiền; ghi nhận thông tin khách
+hàng; hướng dẫn khách hàng về chính sách bảo hành; báo cáo tình hình bán hàng cho Giám
+đốc.
+c) Bộ phận Kho
+Bộ phận Kho gồm 1-2 thủ kho, chịu trách nhiệm quản lý hàng hóa trong kho và kiểm
+soát nhập xuất. Nhiệm vụ chính bao gồm: tiếp nhận hàng từ nhà cung cấp, kiểm tra số
+lượng và chất lượng; lập phiếu nhập kho, cập nhật số lượng tồn; sắp xếp và bảo quản hàng
+
+hóa; xuất hàng cho bộ phận bán hàng khi có yêu cầu; kiểm kê hàng tồn kho định kỳ; báo
+cáo tình trạng tồn kho và đề xuất nhập thêm hàng.
+d) Bộ phận Kỹ thuật (Bảo hành)
+Bộ phận Kỹ thuật gồm 2-3 nhân viên, chịu trách nhiệm tiếp nhận và xử lý các yêu
+cầu bảo hành, sửa chữa sản phẩm. Nhiệm vụ chính bao gồm: tiếp nhận sản phẩm bảo hành
+từ khách hàng; kiểm tra và xác định lỗi sản phẩm; thực hiện sửa chữa hoặc đổi sản phẩm
+mới theo chính sách; ghi nhận thông tin bảo hành; liên hệ hãng sản xuất khi cần bảo hành
+hãng; trả sản phẩm đã bảo hành cho khách hàng.
+2.1.4. Mối quan hệ giữa các bộ phận
+Các bộ phận trong cửa hàng có mối quan hệ phối hợp chặt chẽ với nhau:
+Khách hàng – Bộ phận Bán hàng: Khách hàng đến cửa hàng được nhân viên bán hàng
+tiếp đón, tư vấn sản phẩm và thực hiện giao dịch mua bán.
+Khách hàng – Bộ phận Kỹ thuật: Khi có nhu cầu bảo hành, khách hàng mang sản
+phẩm đến và được nhân viên kỹ thuật tiếp nhận, kiểm tra và xử lý.
+Bộ phận Bán hàng – Bộ phận Kho: Khi bán được hàng, nhân viên bán hàng yêu cầu
+thủ kho xuất sản phẩm từ kho để giao cho khách.
+Bộ phận Kỹ thuật – Bộ phận Kho: Khi cần linh kiện thay thế hoặc sản phẩm đổi mới
+cho khách bảo hành, nhân viên kỹ thuật liên hệ với thủ kho để lấy hàng.
+Bộ phận Kho – Nhà cung cấp: Khi nhập hàng mới, thủ kho tiếp nhận hàng từ nhà
+cung cấp, kiểm tra và nhập kho.
+Tất cả bộ phận – Giám đốc: Các bộ phận đều báo cáo tình hình hoạt động cho Giám
+đốc để theo dõi và ra quyết định.
+2.2. Hiện trạng nghiệp vụ
+Cửa hàng điện tử TECHMART hiện đang thực hiện các nghiệp vụ chính sau: nhập
+hàng từ nhà cung cấp, bán hàng cho khách hàng, và bảo hành sản phẩm. Dưới đây là mô tả
+chi tiết từng quy trình nghiệp vụ.
+2.2.1. Quy trình nhập hàng
+Mô tả quy trình:
+
+Khi cửa hàng có nhu cầu nhập thêm hàng (do hàng tồn kho sắp hết hoặc có sản phẩm
+mới), Giám đốc sẽ liên hệ với nhà cung cấp để đặt hàng. Sau khi thống nhất về số lượng,
+giá cả và thời gian giao hàng, nhà cung cấp sẽ vận chuyển hàng đến cửa hàng.
+Khi hàng được giao đến, Thủ kho tiến hành tiếp nhận và kiểm tra hàng hóa. Công
+việc kiểm tra bao gồm: đối chiếu số lượng thực tế với đơn đặt hàng, kiểm tra tình trạng bên
+ngoài của sản phẩm (hộp, seal nguyên vẹn), kiểm tra IMEI/serial number của từng sản
+phẩm. Nếu phát hiện hàng bị thiếu, sai hoặc hư hỏng, Thủ kho sẽ ghi nhận và báo lại cho
+Giám đốc để liên hệ nhà cung cấp xử lý.
+Sau khi kiểm tra xong, Thủ kho lập phiếu nhập kho bằng cách ghi vào sổ nhập hàng
+hoặc file Excel, bao gồm các thông tin: ngày nhập, tên sản phẩm, số lượng, đơn giá nhập,
+nhà cung cấp, số IMEI/serial. Cuối cùng, hàng hóa được sắp xếp vào kho theo từng loại
+sản phẩm.
+Tần suất thực hiện: Trung bình 2-3 lần/tuần, tùy thuộc vào tình hình bán hàng và nhu
+cầu thị trường.
+Các bộ phận tham gia: Giám đốc, Thủ kho, Nhà cung cấp.
+2.2.2. Quy trình bán hàng
+Mô tả quy trình:
+Khi khách hàng đến cửa hàng, nhân viên bán hàng tiếp đón và tìm hiểu nhu cầu của
+khách. Dựa trên nhu cầu và ngân sách của khách, nhân viên tư vấn các sản phẩm phù hợp,
+giới thiệu tính năng, so sánh giữa các model và trả lời các thắc mắc của khách hàng.
+Sau khi khách hàng chọn được sản phẩm muốn mua, nhân viên bán hàng kiểm tra
+xem sản phẩm còn hàng trong kho không. Nếu còn hàng, nhân viên yêu cầu Thủ kho xuất
+sản phẩm. Thủ kho lấy sản phẩm từ kho, kiểm tra IMEI/serial và giao cho nhân viên bán
+hàng.
+Nhân viên bán hàng tiến hành lập hóa đơn bán hàng bằng cách viết hóa đơn tay hoặc
+nhập vào file Excel, ghi nhận các thông tin: ngày bán, tên khách hàng, số điện thoại, sản
+phẩm mua, số IMEI/serial, đơn giá, thành tiền, hình thức thanh toán. Đồng thời, nhân viên
+điền thông tin vào phiếu bảo hành cho khách.
+Khách hàng thanh toán bằng tiền mặt hoặc chuyển khoản. Nhân viên bán hàng thu
+tiền, giao sản phẩm cùng với hóa đơn, phiếu bảo hành và các phụ kiện kèm theo cho khách.
+
+Cuối cùng, nhân viên hướng dẫn khách hàng về chính sách bảo hành và cách sử dụng sản
+phẩm cơ bản.
+Tần suất thực hiện: Hàng ngày, trung bình 15-30 giao dịch/ngày.
+Các bộ phận tham gia: Nhân viên bán hàng, Thủ kho, Khách hàng.
+2.2.3. Quy trình bảo hành
+Mô tả quy trình:
+Khi khách hàng mang sản phẩm đến bảo hành, nhân viên kỹ thuật tiếp nhận và yêu
+cầu khách xuất trình phiếu bảo hành hoặc hóa đơn mua hàng. Nhân viên kiểm tra thông tin
+bảo hành bao gồm: sản phẩm có thuộc diện bảo hành không, còn trong thời hạn bảo hành
+không, lỗi có thuộc phạm vi bảo hành không (không phải do người dùng gây ra).
+Nếu sản phẩm đủ điều kiện bảo hành, nhân viên kỹ thuật tiếp nhận sản phẩm và lập
+phiếu tiếp nhận bảo hành, ghi nhận thông tin: ngày tiếp nhận, tên khách hàng, số điện thoại,
+sản phẩm, số IMEI/serial, mô tả lỗi, tình trạng máy khi nhận. Khách hàng được hẹn ngày
+quay lại lấy máy (thường từ 3-7 ngày tùy loại lỗi).
+Nhân viên kỹ thuật tiến hành kiểm tra và xác định nguyên nhân lỗi. Nếu lỗi có thể
+sửa chữa tại cửa hàng, nhân viên thực hiện sửa chữa. Nếu cần thay linh kiện, nhân viên liên
+hệ Thủ kho để lấy linh kiện thay thế. Nếu lỗi nặng cần gửi bảo hành hãng, nhân viên ghi
+nhận và gửi sản phẩm về trung tâm bảo hành của hãng sản xuất.
+Sau khi sửa chữa xong, nhân viên kỹ thuật kiểm tra lại sản phẩm, ghi nhận kết quả
+bảo hành vào phiếu và liên hệ khách hàng đến nhận máy. Khi khách đến, nhân viên trả sản
+phẩm, hướng dẫn khách kiểm tra và ký xác nhận đã nhận lại sản phẩm.
+Nếu sản phẩm không đủ điều kiện bảo hành (hết hạn hoặc lỗi do người dùng), nhân
+viên kỹ thuật thông báo cho khách và đưa ra báo giá sửa chữa. Khách hàng có thể đồng ý
+sửa chữa có phí hoặc từ chối.
+Tần suất thực hiện: Trung bình 3-5 trường hợp/ngày.
+Các bộ phận tham gia: Nhân viên kỹ thuật, Thủ kho, Khách hàng.
+2.2.4. Các vấn đề và khó khăn hiện tại
+Qua quá trình khảo sát, cửa hàng đang gặp phải một số vấn đề và khó khăn trong công
+tác quản lý như sau:
+
+Về quản lý hàng hóa và kho:
+Việc ghi chép nhập xuất kho bằng sổ sách hoặc Excel thủ công dễ xảy ra sai sót, nhầm
+lẫn số liệu.
+Khó theo dõi chính xác số lượng tồn kho theo thời gian thực, dẫn đến tình trạng đôi
+khi bán hàng rồi mới phát hiện hết hàng trong kho.
+Việc tra cứu thông tin sản phẩm (giá nhập, giá bán, số IMEI, ngày nhập...) mất nhiều
+thời gian do dữ liệu lưu trữ phân tán trong nhiều file, nhiều sổ sách.
+Kiểm kê kho định kỳ mất nhiều thời gian và công sức do phải đối chiếu thủ công.
+Về quản lý bán hàng:
+Lập hóa đơn thủ công mất thời gian, dễ viết sai, khó đọc.
+Không có hệ thống lưu trữ thông tin khách hàng tập trung, khó tra cứu lịch sử mua
+hàng của khách.
+Khó thống kê nhanh doanh thu theo ngày, theo sản phẩm, theo nhân viên bán hàng.
+Không có cơ chế nhắc nhở khi khách hàng thân thiết quay lại, bỏ lỡ cơ hội chăm sóc
+khách hàng.
+Về quản lý bảo hành:
+Phiếu bảo hành viết tay, lưu trữ bằng giấy dễ bị thất lạc, khó tìm kiếm.
+Khi khách hàng đến bảo hành, việc tra cứu thông tin mua hàng và lịch sử bảo hành
+trước đó mất nhiều thời gian.
+Khó theo dõi tình trạng các sản phẩm đang bảo hành (đang sửa, chờ linh kiện, đã gửi
+hãng...).
+Không có cơ chế nhắc nhở khi sản phẩm bảo hành quá lâu chưa xử lý xong.
+Về thống kê và báo cáo:
+Việc tổng hợp báo cáo doanh thu, lợi nhuận cuối ngày/cuối tháng rất mất thời gian
+do phải tính toán thủ công từ nhiều nguồn dữ liệu.
+Khó phân tích được sản phẩm nào bán chạy, sản phẩm nào tồn kho lâu để có chiến
+lược kinh doanh phù hợp.
+Giám đốc khó nắm bắt được tình hình kinh doanh tổng thể một cách nhanh chóng.
+
+Về rủi ro dữ liệu:
+Dữ liệu lưu trữ trên giấy hoặc file Excel trong máy tính cá nhân có nguy cơ bị mất,
+hỏng do sự cố (cháy, ngập, hỏng ổ cứng...).
+Không có cơ chế sao lưu dữ liệu định kỳ.
+Khó kiểm soát việc truy cập và chỉnh sửa dữ liệu của nhân viên.
+2.2.5. Nhu cầu cải tiến
+Từ những vấn đề và khó khăn trên, cửa hàng có nhu cầu xây dựng một hệ thống thông
+tin quản lý mua bán hàng điện tử với các yêu cầu:
+Quản lý tập trung thông tin sản phẩm, khách hàng, nhà cung cấp trên một hệ thống
+duy nhất.
+Tự động cập nhật số lượng tồn kho khi nhập hàng và bán hàng.
+Hỗ trợ lập hóa đơn nhanh chóng, chính xác, có thể in hóa đơn.
+Quản lý thông tin bảo hành, tra cứu nhanh lịch sử bảo hành theo sản phẩm hoặc khách
+hàng.
+Tự động tổng hợp báo cáo doanh thu, tồn kho, sản phẩm bán chạy.
+Đảm bảo an toàn dữ liệu, phân quyền truy cập cho từng nhân viên.
+2.3. Hiện trạng tin học
+2.3.1. Phần cứng
+Hiện tại, cửa hàng điện tử TECHMART đã được trang bị một số thiết bị tin học cơ
+bản phục vụ cho công việc hàng ngày.
+Máy tính:
+Cửa hàng có tổng cộng 4 máy tính để bàn được bố trí tại các vị trí khác nhau. Một
+máy đặt tại quầy bán hàng để nhân viên bán hàng tra cứu thông tin sản phẩm và lập hóa
+đơn bằng Excel. Một máy đặt tại khu vực kho để Thủ kho ghi nhận thông tin nhập xuất
+hàng. Một máy đặt tại bộ phận kỹ thuật để nhân viên kỹ thuật tra cứu thông tin bảo hành
+và hướng dẫn sửa chữa. Một máy đặt tại phòng Giám đốc để xem báo cáo và quản lý công
+việc.
+
+Cấu hình các máy tính ở mức trung bình: CPU Intel Core i3/i5, RAM 4-8GB, ổ cứng
+HDD 500GB hoặc SSD 256GB. Các máy đều đã sử dụng từ 2-4 năm, hoạt động tương đối
+ổn định, đáp ứng được các tác vụ văn phòng cơ bản.
+Máy in:
+Cửa hàng có 2 máy in. Một máy in laser đen trắng đặt tại quầy bán hàng để in hóa
+đơn cho khách. Một máy in đặt tại phòng Giám đốc để in báo cáo và các tài liệu khác. Các
+máy in hoạt động bình thường, tuy nhiên việc in hóa đơn viết tay vẫn phổ biến hơn do nhân
+viên chưa quen sử dụng máy tính để lập hóa đơn.
+Thiết bị mạng:
+Cửa hàng có một đường truyền Internet cáp quang tốc độ 50Mbps phục vụ cho việc
+tra cứu thông tin, liên hệ nhà cung cấp và các công việc cần kết nối mạng. Một bộ phát
+WiFi được lắp đặt để kết nối các thiết bị trong cửa hàng. Tuy nhiên, các máy tính chưa
+được kết nối mạng nội bộ (LAN) với nhau, mỗi máy hoạt động độc lập và lưu trữ dữ liệu
+riêng.
+Thiết bị khác:
+Cửa hàng chưa trang bị máy quét mã vạch hoặc các thiết bị hỗ trợ bán hàng chuyên
+dụng khác. Việc nhập thông tin sản phẩm khi bán hàng được thực hiện thủ công.
+2.3.2. Phần mềm
+Hệ điều hành:
+Tất cả các máy tính trong cửa hàng đều sử dụng hệ điều hành Windows 10. Hệ điều
+hành được cài đặt bản quyền, hoạt động ổn định.
+Phần mềm văn phòng:
+Các máy tính được cài đặt bộ Microsoft Office 2016/2019 bao gồm Word, Excel,
+PowerPoint. Trong đó, Excel là phần mềm được sử dụng nhiều nhất để:
+Lập và lưu trữ hóa đơn bán hàng
+Ghi chép thông tin nhập xuất kho
+Quản lý danh sách sản phẩm, giá cả
+Lưu thông tin khách hàng
+
+Tổng hợp báo cáo doanh thu
+Mỗi bộ phận sử dụng các file Excel riêng, lưu trữ trên máy tính cá nhân của bộ phận
+đó. Không có sự đồng bộ hoặc chia sẻ dữ liệu giữa các máy.
+Phần mềm quản lý chuyên dụng:
+Hiện tại, cửa hàng chưa sử dụng bất kỳ phần mềm quản lý bán hàng, quản lý kho hay
+quản lý bảo hành chuyên dụng nào. Toàn bộ công việc quản lý được thực hiện thủ công
+bằng sổ sách kết hợp với Excel.
+Phần mềm khác:
+Các máy tính có cài đặt phần mềm diệt virus (Kaspersky hoặc Windows Defender)
+để bảo vệ máy tính. Ngoài ra có các phần mềm đọc file PDF, trình duyệt web (Chrome,
+Firefox) để tra cứu thông tin.
+Hệ quản trị cơ sở dữ liệu:
+Cửa hàng chưa sử dụng bất kỳ hệ quản trị cơ sở dữ liệu nào (như SQL Server,
+MySQL, Access...). Dữ liệu được lưu trữ dưới dạng file Excel và các tài liệu giấy.
+2.3.3. Nhân sự tin học
+Trình độ tin học của nhân viên:
+Đa số nhân viên trong cửa hàng có trình độ tin học văn phòng cơ bản. Cụ thể:
+Nhân viên bán hàng có khả năng sử dụng máy tính ở mức cơ bản, biết dùng Excel để
+nhập liệu đơn giản, tra cứu thông tin trên Internet, sử dụng email. Tuy nhiên, các nhân viên
+chưa thành thạo việc sử dụng các hàm tính toán trong Excel hay các thao tác phức tạp hơn.
+Thủ kho có khả năng sử dụng Excel để ghi chép nhập xuất kho, tuy nhiên việc sử
+dụng còn hạn chế, chủ yếu là nhập liệu và in ấn cơ bản.
+Nhân viên kỹ thuật có trình độ tin học khá hơn do đặc thù công việc liên quan đến
+thiết bị điện tử. Các nhân viên này có khả năng tra cứu thông tin kỹ thuật, tải phần mềm,
+cập nhật firmware cho sản phẩm.
+Giám đốc có khả năng sử dụng máy tính ở mức cơ bản, chủ yếu xem báo cáo Excel
+và sử dụng email để liên hệ công việc.
+Nhân viên IT chuyên trách:
+
+Cửa hàng không có nhân viên IT chuyên trách. Khi máy tính hoặc thiết bị tin học gặp
+sự cố, cửa hàng thường nhờ nhân viên kỹ thuật (bộ phận bảo hành) hỗ trợ xử lý các vấn đề
+đơn giản, hoặc thuê dịch vụ IT bên ngoài cho các sự cố phức tạp hơn.
+Đào tạo tin học:
+Nhân viên chưa được đào tạo bài bản về sử dụng phần mềm quản lý chuyên dụng.
+Các kỹ năng tin học hiện có chủ yếu do tự học hoặc học từ trường phổ thông, cao đẳng, đại
+học trước đó.
+2.3.4. Đánh giá hiện trạng tin học
+Điểm mạnh:
+Cửa hàng đã có sẵn cơ sở hạ tầng tin học cơ bản (máy tính, máy in, Internet).
+Nhân viên đã quen với việc sử dụng máy tính cho công việc hàng ngày.
+Có kết nối Internet ổn định phục vụ cho việc triển khai hệ thống sau này.
+Điểm yếu:
+Chưa có phần mềm quản lý chuyên dụng, mọi công việc đều làm thủ công hoặc bằng
+Excel.
+Các máy tính hoạt động độc lập, không có mạng nội bộ để chia sẻ dữ liệu.
+Dữ liệu phân tán, không tập trung, khó đồng bộ và dễ mất mát.
+Không có cơ chế sao lưu dữ liệu định kỳ.
+Không có nhân viên IT chuyên trách để vận hành và bảo trì hệ thống.
+Trình độ tin học của nhân viên còn hạn chế, cần được đào tạo khi triển khai phần
+mềm mới.
+Kết luận:
+Hiện trạng tin học của cửa hàng ở mức cơ bản, đủ điều kiện để triển khai một hệ thống
+thông tin quản lý mua bán hàng điện tử. Tuy nhiên, cần có kế hoạch đào tạo nhân viên sử
+dụng phần mềm mới, thiết lập mạng nội bộ để các máy tính có thể chia sẻ dữ liệu, và xây
+dựng quy trình sao lưu dữ liệu định kỳ để đảm bảo an toàn thông tin.
+
+PHẦN 3. XÁC ĐỊNH YÊU CẦU HỆ THỐNG
+3.1. Yêu cầu chức năng
+Dựa trên kết quả khảo sát hiện trạng và phân tích nhu cầu của cửa hàng, hệ thống
+thông tin quản lý mua bán hàng điện tử cần đáp ứng các yêu cầu chức năng sau:
+3.1.1. Chức năng Đăng nhập và Phân quyền
+Hệ thống cần có chức năng đăng nhập để xác thực người dùng trước khi sử dụng. Mỗi
+nhân viên được cấp một tài khoản riêng với tên đăng nhập và mật khẩu. Hệ thống phân
+quyền sử dụng theo vai trò, đảm bảo mỗi nhân viên chỉ được truy cập và thực hiện các chức
+năng phù hợp với công việc của mình.
+Các chức năng cụ thể:
+Đăng nhập hệ thống bằng tài khoản và mật khẩu
+Đăng xuất khỏi hệ thống
+Đổi mật khẩu cá nhân
+Phân quyền theo vai trò: Giám đốc, Nhân viên bán hàng, Thủ kho, Nhân viên kỹ thuật
+Quản lý tài khoản người dùng (thêm, sửa, khóa tài khoản) - chỉ Giám đốc có quyền
+3.1.2. Chức năng Quản lý sản phẩm
+Hệ thống cần cho phép quản lý thông tin các sản phẩm điện tử kinh doanh tại cửa
+hàng. Thông tin sản phẩm bao gồm: mã sản phẩm, tên sản phẩm, loại sản phẩm (điện thoại,
+laptop, tablet, phụ kiện...), hãng sản xuất, giá nhập, giá bán, số lượng tồn kho, thời gian
+bảo hành, mô tả chi tiết, hình ảnh sản phẩm.
+Các chức năng cụ thể:
+Thêm sản phẩm mới vào hệ thống
+Cập nhật thông tin sản phẩm (giá, mô tả, hình ảnh...)
+Xóa sản phẩm (đánh dấu ngừng kinh doanh)
+Tìm kiếm sản phẩm theo nhiều tiêu chí: mã, tên, loại, hãng sản xuất
+Xem danh sách sản phẩm với bộ lọc và sắp xếp
+Quản lý danh mục loại sản phẩm
+
+Quản lý danh sách hãng sản xuất
+Xem chi tiết thông tin một sản phẩm
+3.1.3. Chức năng Quản lý nhập hàng
+Hệ thống cần hỗ trợ quản lý quá trình nhập hàng từ nhà cung cấp. Mỗi lần nhập hàng,
+hệ thống ghi nhận thông tin phiếu nhập bao gồm: mã phiếu nhập, ngày nhập, nhà cung cấp,
+danh sách sản phẩm nhập (tên, số lượng, đơn giá nhập, số IMEI/Serial nếu có), tổng tiền,
+người lập phiếu.
+Các chức năng cụ thể:
+Lập phiếu nhập hàng mới
+Nhập chi tiết từng sản phẩm trong phiếu nhập (số lượng, đơn giá, IMEI/Serial)
+Tự động cập nhật số lượng tồn kho khi xác nhận phiếu nhập
+Xem danh sách phiếu nhập theo thời gian, theo nhà cung cấp
+Xem chi tiết phiếu nhập
+Tìm kiếm phiếu nhập theo mã, ngày, nhà cung cấp
+In phiếu nhập hàng
+3.1.4. Chức năng Quản lý bán hàng
+Hệ thống cần hỗ trợ quy trình bán hàng cho khách hàng. Khi bán hàng, nhân viên lập
+hóa đơn bán hàng ghi nhận: mã hóa đơn, ngày bán, thông tin khách hàng, danh sách sản
+phẩm mua (tên, số lượng, đơn giá, số IMEI/Serial), tổng tiền, hình thức thanh toán, nhân
+viên bán hàng.
+Các chức năng cụ thể:
+Lập hóa đơn bán hàng mới
+Tìm kiếm và chọn sản phẩm từ danh sách để thêm vào hóa đơn
+Tìm kiếm hoặc thêm mới thông tin khách hàng
+Tự động tính tổng tiền hóa đơn
+Áp dụng khuyến mãi, giảm giá (nếu có)
+Xác nhận thanh toán và lưu hóa đơn
+
+Tự động trừ số lượng tồn kho khi bán hàng thành công
+Tự động ghi nhận thông tin bảo hành cho sản phẩm đã bán
+In hóa đơn bán hàng
+Xem danh sách hóa đơn theo thời gian, theo nhân viên, theo khách hàng
+Xem chi tiết hóa đơn
+Tìm kiếm hóa đơn theo mã, ngày, khách hàng
+3.1.5. Chức năng Quản lý bảo hành
+Hệ thống cần hỗ trợ quản lý quá trình bảo hành sản phẩm cho khách hàng. Khi tiếp
+nhận bảo hành, hệ thống ghi nhận: mã phiếu bảo hành, ngày tiếp nhận, thông tin khách
+hàng, thông tin sản phẩm (tên, IMEI/Serial), mô tả lỗi, tình trạng tiếp nhận, nhân viên tiếp
+nhận. Trong quá trình xử lý, hệ thống theo dõi tình trạng bảo hành và ghi nhận kết quả.
+Các chức năng cụ thể:
+Tiếp nhận sản phẩm bảo hành, lập phiếu bảo hành
+Tra cứu thông tin bảo hành theo IMEI/Serial hoặc hóa đơn mua hàng
+Kiểm tra sản phẩm còn trong thời hạn bảo hành không
+Cập nhật tình trạng xử lý bảo hành (Đang kiểm tra, Đang sửa chữa, Chờ linh kiện,
+Đã gửi hãng, Hoàn thành...)
+Ghi nhận kết quả bảo hành (Đã sửa xong, Đổi máy mới, Không bảo hành được...)
+Trả sản phẩm bảo hành cho khách hàng
+Xem danh sách phiếu bảo hành theo tình trạng, theo thời gian
+Xem lịch sử bảo hành của một sản phẩm
+Tìm kiếm phiếu bảo hành theo mã, IMEI, khách hàng
+In phiếu tiếp nhận bảo hành, phiếu trả bảo hành
+3.1.6. Chức năng Quản lý khách hàng
+Hệ thống cần lưu trữ và quản lý thông tin khách hàng để phục vụ cho việc bán hàng,
+bảo hành và chăm sóc khách hàng. Thông tin khách hàng bao gồm: mã khách hàng, họ tên,
+số điện thoại, địa chỉ, email, ngày đăng ký.
+
+Các chức năng cụ thể:
+Thêm khách hàng mới
+Cập nhật thông tin khách hàng
+Xóa khách hàng (đánh dấu không hoạt động)
+Tìm kiếm khách hàng theo tên, số điện thoại
+Xem danh sách khách hàng
+Xem lịch sử mua hàng của khách hàng
+Xem lịch sử bảo hành của khách hàng
+3.1.7. Chức năng Quản lý nhà cung cấp
+Hệ thống cần quản lý thông tin các nhà cung cấp mà cửa hàng hợp tác. Thông tin nhà
+cung cấp bao gồm: mã nhà cung cấp, tên nhà cung cấp, địa chỉ, số điện thoại, email, người
+liên hệ.
+Các chức năng cụ thể:
+Thêm nhà cung cấp mới
+Cập nhật thông tin nhà cung cấp
+Xóa nhà cung cấp (đánh dấu ngừng hợp tác)
+Tìm kiếm nhà cung cấp theo tên, số điện thoại
+Xem danh sách nhà cung cấp
+Xem lịch sử nhập hàng từ nhà cung cấp
+3.1.8. Chức năng Quản lý nhân viên
+Hệ thống cần quản lý thông tin nhân viên làm việc tại cửa hàng. Thông tin nhân viên
+bao gồm: mã nhân viên, họ tên, ngày sinh, giới tính, số điện thoại, địa chỉ, chức vụ/bộ phận,
+ngày vào làm.
+Các chức năng cụ thể:
+Thêm nhân viên mới
+Cập nhật thông tin nhân viên
+
+Xóa nhân viên (đánh dấu nghỉ việc)
+Tìm kiếm nhân viên theo tên, mã nhân viên
+Xem danh sách nhân viên theo bộ phận
+Xem thông tin chi tiết nhân viên
+3.1.9. Chức năng Thống kê và Báo cáo
+Hệ thống cần cung cấp các báo cáo thống kê để hỗ trợ Giám đốc theo dõi tình hình
+kinh doanh và ra quyết định.
+Các chức năng cụ thể:
+Thống kê doanh thu theo ngày, tuần, tháng, năm
+Thống kê doanh thu theo nhân viên bán hàng
+Thống kê sản phẩm bán chạy nhất
+Thống kê sản phẩm tồn kho lâu
+Báo cáo tồn kho hiện tại
+Báo cáo nhập hàng theo thời gian, theo nhà cung cấp
+Báo cáo tình hình bảo hành (số lượng tiếp nhận, hoàn thành, đang xử lý)
+Xuất báo cáo ra file Excel hoặc PDF
+In báo cáo
+3.1.10. Tổng hợp yêu cầu chức năng
+STT
+
+Nhóm chức năng
+
+Số lượng chức năng con
+
+1
+
+Đăng nhập và Phân quyền
+
+5
+
+2
+
+Quản lý sản phẩm
+
+8
+
+3
+
+Quản lý nhập hàng
+
+7
+
+4
+
+Quản lý bán hàng
+
+12
+
+5
+
+Quản lý bảo hành
+
+10
+
+STT
+
+Nhóm chức năng
+
+Số lượng chức năng con
+
+6
+
+Quản lý khách hàng
+
+7
+
+7
+
+Quản lý nhà cung cấp
+
+6
+
+8
+
+Quản lý nhân viên
+
+6
+
+9
+
+Thống kê và Báo cáo
+
+9
+
+TC
+
+TỔNG CỘNG
+
+70
+
+3.2. Yêu cầu phi chức năng
+Ngoài các yêu cầu chức năng, hệ thống thông tin quản lý mua bán hàng điện tử cần
+đáp ứng các yêu cầu phi chức năng sau để đảm bảo chất lượng và hiệu quả khi vận hành.
+3.2.1. Yêu cầu về hiệu năng (Performance)
+Hệ thống cần đảm bảo tốc độ xử lý nhanh, đáp ứng kịp thời nhu cầu sử dụng của nhân
+viên, đặc biệt trong giờ cao điểm bán hàng.
+Thời gian phản hồi cho các thao tác thông thường (tìm kiếm, xem danh sách, mở form
+nhập liệu) không quá 2 giây.
+Thời gian lập và lưu hóa đơn bán hàng không quá 3 giây.
+Thời gian xuất báo cáo thống kê không quá 5 giây đối với dữ liệu trong vòng 1 năm.
+Hệ thống có khả năng xử lý đồng thời tối thiểu 10 người dùng cùng lúc mà không bị
+chậm hoặc treo.
+Thời gian khởi động hệ thống không quá 10 giây.
+3.2.2. Yêu cầu về độ tin cậy (Reliability)
+Hệ thống cần hoạt động ổn định, đảm bảo tính chính xác của dữ liệu và hạn chế tối
+đa các lỗi phát sinh.
+Hệ thống hoạt động ổn định 99% thời gian trong giờ làm việc (từ 8:00 đến 21:00 hàng
+ngày).
+Dữ liệu được lưu trữ chính xác, không bị mất mát hoặc sai lệch trong quá trình nhập
+liệu và xử lý.
+
+Hệ thống có cơ chế kiểm tra và cảnh báo khi phát hiện dữ liệu bất thường (ví dụ: số
+lượng tồn kho âm).
+Khi xảy ra lỗi, hệ thống hiển thị thông báo lỗi rõ ràng, dễ hiểu để người dùng biết
+cách xử lý.
+Hệ thống có khả năng phục hồi nhanh chóng sau khi gặp sự cố (khởi động lại, kết nối
+lại cơ sở dữ liệu).
+3.2.3. Yêu cầu về khả năng sử dụng (Usability)
+Hệ thống cần có giao diện thân thiện, dễ sử dụng, phù hợp với trình độ tin học cơ bản
+của nhân viên cửa hàng.
+Giao diện người dùng trực quan, bố cục rõ ràng, sử dụng tiếng Việt hoàn toàn.
+Các chức năng được tổ chức theo menu logic, dễ tìm kiếm và truy cập.
+Nhân viên mới có thể học cách sử dụng các chức năng cơ bản trong vòng 1-2 giờ đào
+tạo.
+Hệ thống hỗ trợ các phím tắt cho các thao tác thường xuyên (ví dụ: F2 - Thêm mới,
+F3 - Tìm kiếm, F5 - Làm mới).
+Các form nhập liệu có kiểm tra dữ liệu đầu vào và hiển thị thông báo hướng dẫn khi
+người dùng nhập sai.
+Hệ thống có chức năng trợ giúp (Help) hoặc hướng dẫn sử dụng tích hợp.
+Hỗ trợ thao tác bằng chuột và bàn phím linh hoạt.
+3.2.4. Yêu cầu về bảo mật (Security)
+Hệ thống cần đảm bảo an toàn thông tin, ngăn chặn truy cập trái phép và bảo vệ dữ
+liệu quan trọng của cửa hàng.
+Người dùng bắt buộc phải đăng nhập bằng tài khoản và mật khẩu trước khi sử dụng
+hệ thống.
+Mật khẩu được mã hóa khi lưu trữ trong cơ sở dữ liệu, không lưu dưới dạng văn bản
+thuần (plain text).
+Phân quyền truy cập theo vai trò, đảm bảo nhân viên chỉ được thực hiện các chức
+năng trong phạm vi công việc của mình.
+
+Ghi nhật ký (log) các thao tác quan trọng: đăng nhập, thêm/sửa/xóa dữ liệu, để phục
+vụ kiểm tra khi cần.
+Tự động đăng xuất sau một khoảng thời gian không hoạt động (ví dụ: 15 phút) để
+tránh người khác sử dụng trái phép.
+Có cơ chế sao lưu dữ liệu định kỳ (hàng ngày) và khả năng phục hồi dữ liệu khi cần
+thiết.
+Hạn chế số lần đăng nhập sai liên tiếp (ví dụ: khóa tài khoản sau 5 lần nhập sai mật
+khẩu).
+3.2.5. Yêu cầu về khả năng bảo trì (Maintainability)
+Hệ thống cần được thiết kế và xây dựng theo chuẩn, dễ dàng bảo trì, sửa lỗi và nâng
+cấp trong tương lai.
+Mã nguồn được viết rõ ràng, có chú thích đầy đủ, tuân theo quy tắc đặt tên chuẩn.
+Kiến trúc hệ thống phân tách rõ ràng giữa các tầng: giao diện, xử lý nghiệp vụ, truy
+cập dữ liệu.
+Có tài liệu hướng dẫn cài đặt, cấu hình và sử dụng hệ thống.
+Có tài liệu mô tả thiết kế hệ thống (các sơ đồ UML) để tham khảo khi bảo trì.
+Dễ dàng phát hiện và sửa lỗi khi có sự cố xảy ra.
+Có khả năng cập nhật, nâng cấp phiên bản mới mà không ảnh hưởng đến dữ liệu hiện
+có.
+3.2.6. Yêu cầu về khả năng mở rộng (Scalability)
+Hệ thống cần có khả năng mở rộng để đáp ứng sự phát triển của cửa hàng trong tương
+lai.
+Thiết kế cơ sở dữ liệu linh hoạt, có thể bổ sung thêm các trường thông tin hoặc bảng
+dữ liệu mới khi cần.
+Có khả năng tăng số lượng người dùng đồng thời khi cửa hàng mở rộng quy mô.
+Có khả năng bổ sung thêm các module chức năng mới (ví dụ: bán hàng online, quản
+lý khuyến mãi chi tiết...) mà không cần thay đổi lớn kiến trúc hệ thống.
+
+Cơ sở dữ liệu có khả năng lưu trữ dữ liệu trong ít nhất 5 năm hoạt động mà không
+ảnh hưởng đến hiệu năng.
+3.2.7. Yêu cầu về giao diện (Interface)
+Hệ thống cần có giao diện đẹp, chuyên nghiệp, tạo ấn tượng tốt và thuận tiện cho
+người sử dụng.
+Giao diện sử dụng màu sắc hài hòa, phù hợp với môi trường làm việc (không quá sặc
+sỡ, không quá tối).
+Font chữ rõ ràng, kích thước phù hợp, dễ đọc.
+Các nút bấm, biểu tượng có kích thước đủ lớn, dễ nhấn.
+Bố cục nhất quán giữa các màn hình, người dùng dễ làm quen.
+Hỗ trợ hiển thị tốt trên độ phân giải màn hình phổ biến (1366x768 trở lên).
+Có thông báo xác nhận trước khi thực hiện các thao tác quan trọng (xóa dữ liệu, hủy
+hóa đơn...).
+3.2.8. Yêu cầu về môi trường triển khai
+Hệ thống cần tương thích với hạ tầng tin học hiện có của cửa hàng và dễ dàng triển
+khai.
+Yêu cầu phần cứng tối thiểu (máy trạm):
+CPU: Intel Core i3 trở lên
+RAM: 4GB trở lên
+Ổ cứng: còn trống ít nhất 500MB cho phần mềm
+Màn hình: độ phân giải 1366x768 trở lên
+Kết nối mạng LAN hoặc WiFi
+Yêu cầu phần mềm:
+Hệ điều hành: Windows 10 trở lên
+Đã cài đặt .NET Framework (nếu phát triển bằng C#) hoặc Java Runtime (nếu phát
+triển bằng Java)
+Trình duyệt web (nếu là ứng dụng web): Chrome, Firefox, Edge phiên bản mới
+
+Yêu cầu máy chủ (nếu triển khai mô hình client-server):
+CPU: Intel Core i5 trở lên
+RAM: 8GB trở lên
+Ổ cứng: 100GB trở lên
+Hệ quản trị CSDL: SQL Server, MySQL hoặc tương đương
+
+PHẦN 4. KẾT LUẬN
+4.1. Tổng kết
+Qua quá trình khảo sát và phân tích hiện trạng tại Cửa hàng điện tử TECHMART,
+bản đặc tả yêu cầu này đã thực hiện được các nội dung sau:
+Về khảo sát hiện trạng:
+Đã khảo sát và mô tả chi tiết cơ cấu tổ chức của cửa hàng với 4 bộ phận chính: Giám
+đốc, Bộ phận Bán hàng, Bộ phận Kho và Bộ phận Kỹ thuật. Mỗi bộ phận có chức năng,
+nhiệm vụ rõ ràng và có mối quan hệ phối hợp chặt chẽ trong hoạt động kinh doanh hàng
+ngày.
+Đã phân tích và mô tả 3 quy trình nghiệp vụ chính đang được thực hiện tại cửa hàng:
+quy trình nhập hàng từ nhà cung cấp, quy trình bán hàng cho khách hàng, và quy trình bảo
+hành sản phẩm. Qua đó đã nhận diện được 5 nhóm vấn đề và khó khăn mà cửa hàng đang
+gặp phải trong công tác quản lý thủ công hiện tại.
+Đã đánh giá hiện trạng tin học của cửa hàng bao gồm cơ sở hạ tầng phần cứng, phần
+mềm đang sử dụng và trình độ tin học của nhân viên. Kết quả cho thấy cửa hàng đã có nền
+tảng cơ bản để triển khai hệ thống thông tin mới.
+Về xác định yêu cầu hệ thống:
+Đã xác định được 9 nhóm chức năng chính với tổng cộng 70 chức năng con cần có
+trong hệ thống, bao gồm: Đăng nhập và Phân quyền, Quản lý sản phẩm, Quản lý nhập
+hàng, Quản lý bán hàng, Quản lý bảo hành, Quản lý khách hàng, Quản lý nhà cung cấp,
+Quản lý nhân viên, Thống kê và Báo cáo.
+Đã xác định được 8 nhóm yêu cầu phi chức năng quan trọng để đảm bảo chất lượng
+hệ thống: hiệu năng, độ tin cậy, khả năng sử dụng, bảo mật, khả năng bảo trì, khả năng mở
+rộng, giao diện và môi trường triển khai.
+4.2. Đánh giá tính khả thi
+Việc xây dựng Hệ thống thông tin quản lý mua bán hàng điện tử cho cửa hàng
+TECHMART là khả thi dựa trên các yếu tố sau:
+Về mặt kỹ thuật: Cửa hàng đã có sẵn cơ sở hạ tầng tin học cơ bản (máy tính, máy in,
+kết nối Internet). Các công nghệ phát triển phần mềm quản lý bán hàng hiện nay đã rất phổ
+
+biến và có nhiều công cụ, framework hỗ trợ. Các yêu cầu chức năng và phi chức năng đề
+ra đều nằm trong khả năng thực hiện với công nghệ hiện có.
+Về mặt vận hành: Nhân viên cửa hàng đã quen với việc sử dụng máy tính trong công
+việc hàng ngày. Giao diện hệ thống được thiết kế đơn giản, thân thiện, phù hợp với trình
+độ tin học cơ bản của nhân viên. Với thời gian đào tạo 1-2 giờ, nhân viên có thể sử dụng
+được các chức năng cơ bản của hệ thống.
+Về mặt kinh tế: Việc đầu tư xây dựng hệ thống sẽ mang lại lợi ích lâu dài cho cửa
+hàng thông qua việc tăng hiệu quả quản lý, giảm sai sót, tiết kiệm thời gian và hỗ trợ ra
+quyết định kinh doanh tốt hơn.
+4.3. Đề xuất hướng phát triển
+Dựa trên kết quả phân tích, đề xuất các bước tiếp theo để phát triển hệ thống:
+Giai đoạn 1 - Thiết kế hệ thống:
+Xây dựng sơ đồ Use-case chi tiết cho từng nhóm chức năng
+Thiết kế sơ đồ hoạt động (Activity Diagram) cho các quy trình nghiệp vụ chính
+Thiết kế sơ đồ tuần tự (Sequence Diagram) cho các tương tác quan trọng
+Thiết kế sơ đồ lớp (Class Diagram) mô tả cấu trúc dữ liệu và đối tượng của hệ thống
+Thiết kế giao diện người dùng
+Giai đoạn 2 - Cài đặt và triển khai (nếu tiếp tục phát triển):
+Lựa chọn công nghệ phát triển phù hợp
+Lập trình và kiểm thử hệ thống
+Triển khai thử nghiệm tại cửa hàng
+Đào tạo người dùng
+Vận hành chính thức và bảo trì
+Hướng mở rộng trong tương lai:
+Phát triển module bán hàng trực tuyến (website, ứng dụng di động)
+Tích hợp thanh toán điện tử (ví điện tử, quẹt thẻ)
+Phát triển hệ thống quản lý chuỗi cửa hàng (nếu mở rộng quy mô)
+
+Tích hợp với các hệ thống khác (kế toán, quản lý nhân sự)
+Áp dụng trí tuệ nhân tạo để phân tích dữ liệu kinh doanh và dự báo xu hướng
+4.4. Lời kết
+Bản đặc tả yêu cầu này là bước đầu tiên quan trọng trong quy trình phân tích và thiết
+kế Hệ thống thông tin quản lý mua bán hàng điện tử. Các thông tin khảo sát hiện trạng và
+yêu cầu hệ thống được trình bày trong bản đặc tả sẽ là cơ sở để thực hiện các bước tiếp
+theo: xây dựng mô hình Use-case, thiết kế các sơ đồ UML và phát triển hệ thống hoàn
+chỉnh.
+Việc tin học hóa công tác quản lý mua bán hàng điện tử sẽ giúp cửa hàng
+TECHMART nâng cao hiệu quả hoạt động, giảm thiểu sai sót trong quản lý, tiết kiệm thời
+gian và chi phí, đồng thời tạo nền tảng để phát triển kinh doanh trong tương lai.
+
+
